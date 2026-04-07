@@ -12,3 +12,43 @@ Rizal: Printing it will anger powerful people.
 Rizal: Thank you, my friend. This book must reach the world.
 "Printing Master": The press is ready. Once we begin, there is no turning back.
 Rizal: Then let the truth be printed.
+Narrator: minigame quiz\: this is a multiple-choice question.
+label louisminigames
+Narrator: 1 +1
+- 1
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigames
+- 2
+	Narrator: Correct !!
+- 3
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigames
+- 4
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigames
+label louisminigames1
+Narrator: 2+2
+- 4
+	Narrator: Correct !!
+- 5
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigames1
+- 6
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigames1
+- 7
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigames1
+label louisminigame2
+Narrator: 3+3
+- 1
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigame2
+- 2
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigame2
+- 6
+	Narrator: Correct !!
+- 3
+	Narrator: Your answer is wrong. Ill repeat the question.
+	jump 2/1/louisminigame2

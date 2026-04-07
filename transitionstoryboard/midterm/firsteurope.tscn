@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bm30v8m1qbxhv"]
+[gd_scene format=3 uid="uid://bm30v8m1qbxhv"]
 
-[ext_resource type="Script" uid="uid://d2vbddj2d2i22" path="res://transitionstoryboard/scripts/ateneo1.gd" id="1_djymd"]
-[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_djymd"]
+[ext_resource type="Script" uid="uid://d2vbddj2d2i22" path="res://transitionstoryboard/scripts/ateneo1.gd" id="1_8kkdy"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_btopi"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l1uyl"]
 
@@ -10,12 +10,12 @@ texture = SubResource("AtlasTexture_l1uyl")
 modulate_color = Color(0, 0, 0, 1)
 
 [sub_resource type="FontVariation" id="FontVariation_cxhqw"]
-base_font = ExtResource("2_djymd")
+base_font = ExtResource("2_btopi")
 
-[node name="ateneo1" type="CanvasLayer"]
-script = ExtResource("1_djymd")
+[node name="firsteurope" type="CanvasLayer" unique_id=1427003519]
+script = ExtResource("1_8kkdy")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Panel" type="Panel" parent="." unique_id=1600752953]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -23,17 +23,17 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_30ypi")
 
-[node name="calambaintroduction" type="Label" parent="."]
+[node name="calambaintroduction" type="Label" parent="." unique_id=1896202788]
 custom_minimum_size = Vector2(350, 0)
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -397.5
-offset_top = -335.0
-offset_right = 397.5
-offset_bottom = 335.0
+offset_left = -234.75
+offset_top = -31.5
+offset_right = 234.75
+offset_bottom = 31.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.803922)
@@ -41,6 +41,6 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 30
 theme_override_fonts/font = SubResource("FontVariation_cxhqw")
 theme_override_font_sizes/font_size = 50
-text = "Noong taong 1872, iniwan ng binatang si José Rizal ang kanyang tahanan upang ipagpatuloy ang pag-aaral sa Maynila. Siya ay pumasok sa Ateneo Municipal de Manila  isang paaralang kilala sa mahigpit na disiplina at pamamaraang Heswita sa pagtuturo"
+text = "First soujourn to europe"
 horizontal_alignment = 3
 autowrap_mode = 3

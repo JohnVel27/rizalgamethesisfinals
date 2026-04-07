@@ -4,7 +4,7 @@ extends CharacterBody2D
 
 
 const LEVEL_DATA := {
-	"res://levels/midterm/1/1.tscn": ["1", "res://levels/midterm/2/1.tscn"],
+	"res://levels/midterm/1/1.tscn": ["1", "res://transitionstoryboard/midterm/firsteurope.tscn"],
 	"res://levels/midterm/4/1.tscn": ["4/1", "res://levels/midterm/5/1.tscn"],
 	"res://levels/midterm/5/brusselsappartmentrizal.tscn": ["5/1", "res://GUI/mainmenu/levels.tscn"]
 

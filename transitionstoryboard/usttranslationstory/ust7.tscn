@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=3 uid="uid://b3bu0cytw5txi"]
+
+[ext_resource type="Script" uid="uid://evop56cavu8q" path="res://transitionstoryboard/scripts/ust7.gd" id="1_25f6t"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_8uve8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l1uyl"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_30ypi"]
+texture = SubResource("AtlasTexture_l1uyl")
+modulate_color = Color(0, 0, 0, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_cxhqw"]
+base_font = ExtResource("2_8uve8")
+
+[node name="ateneo7" type="CanvasLayer"]
+script = ExtResource("1_25f6t")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_30ypi")
+
+[node name="calambaintroduction" type="Label" parent="."]
+custom_minimum_size = Vector2(350, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -389.5
+offset_top = -165.0
+offset_right = 389.5
+offset_bottom = 165.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.803922)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 30
+theme_override_fonts/font = SubResource("FontVariation_cxhqw")
+theme_override_font_sizes/font_size = 50
+text = "Sa paghahangad ng mas malayang pagkatuto at mas makatarungang pagkakataon, nagpasya siyang ipagpatuloy ang kanyang pag-aaral sa ibang bansa."
+horizontal_alignment = 3
+autowrap_mode = 3

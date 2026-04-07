@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3 uid="uid://1wf611u6l00v"]
+
+[ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_4ropv"]
+
+[resource]
+script = ExtResource("1_4ropv")
+name = "Marked Examination Paper"
+description = "An examination paper with a harsh grade from a professor. During this time, Rizal experienced the unequal treatment of Filipino students."
+metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

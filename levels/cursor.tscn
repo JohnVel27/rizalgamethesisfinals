@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bge5wggf77ret"]
+
+[ext_resource type="Script" uid="uid://ctv25dx8qxpco" path="res://levels/cursor.gd" id="1_4bcdb"]
+[ext_resource type="Texture2D" uid="uid://bc5x22awij8fe" path="res://levels/sprites/action_xhairs_sheet.png" id="2_587un"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4bcdb"]
+atlas = ExtResource("2_587un")
+region = Rect2(256.448, 304.579, 15.234, 15.0362)
+
+[node name="Cursor" type="Node2D"]
+script = ExtResource("1_4bcdb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, 0)
+texture = SubResource("AtlasTexture_4bcdb")

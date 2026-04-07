@@ -1,0 +1,55 @@
+join Justiano right
+Justiano: New student. Stand up.
+join Rizal left
+leave Justiano
+Rizal: I am José Rizal Mercado, sir.
+join Justiano right
+leave Rizal
+Justiano: Do you know how to read Spanish?
+join Rizal left
+leave Justiano
+Rizal: A little, sir.
+join Justiano right
+Justiano: Self-confidence is earned. Read.
+Narrator: minigame quiz\: this is a multiple-choice question.
+label maestrocruz
+Narrator: Who was José Rizal's teacher in Biñan?
+- Maestro Juancho Carrera
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/maestrocruz
+- Maestro Justiniano Aquino Cruz
+	Narrator: Correct!
+- Padre Damaso
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/maestrocruz
+- Kapitan Tiago
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/maestrocruz
+label calamba
+Narrator: Young José, before you came here to Biñan... from what town did you travel?
+- Cebu
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/calamba
+- Calamba
+	Narrator: Correct!
+- Vigan
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/calamba
+- Maynila
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/calamba
+label subjects
+Narrator: In this school, they study subjects that sharpen the mind. Which of these did they study at Rizal's school?
+- Espanyol, Latin, aritmetika, at katesismo
+	Narrator: Correct!
+- Paglalayag at nabigasyon
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/subjects
+- Karpenterya
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/subjects
+- Musika at pagsasayaw
+	Narrator: Your answer is wrong, I'll repeat the question.
+	jump 2maestrocruzrizal1/subjects
+classmates: he acts as if he is special.
+Justiano: Be quiet! In this classroom, diligence earns respect, not arrogance.

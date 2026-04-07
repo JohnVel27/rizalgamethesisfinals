@@ -1,0 +1,14 @@
+[gd_resource type="StyleBoxTexture" load_steps=3 format=3 uid="uid://bqid3f6ah3osq"]
+
+[ext_resource type="Texture2D" uid="uid://dwxe1cqu8yi28" path="res://asset/dialoguebox/dialoguedesign.png" id="1_f066q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kef5n"]
+atlas = ExtResource("1_f066q")
+region = Rect2(8.83997, 11.027, 480.37, 151.599)
+
+[resource]
+texture = SubResource("AtlasTexture_kef5n")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0

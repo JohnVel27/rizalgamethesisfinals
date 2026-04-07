@@ -1,0 +1,99 @@
+[gd_scene load_steps=7 format=3 uid="uid://tja41kwu56t2"]
+
+[ext_resource type="Script" uid="uid://duisa6ak62gcy" path="res://puzzle/src/scene/game/gamelamp.gd" id="1_dl4hy"]
+[ext_resource type="PackedScene" uid="uid://dea03ctv54md4" path="res://puzzle/src/scene/board/boardlamp.tscn" id="2_dl4hy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dpr58"]
+bg_color = Color(0.156863, 0.121569, 0.235294, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xhko0"]
+bg_color = Color(0.125911, 0.125911, 0.125911, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eesrs"]
+bg_color = Color(0.780392, 0.780392, 0.780392, 1)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.000522695, 0.0294232, 0.0235657, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iea0x"]
+bg_color = Color(0.0196078, 0.0313726, 0.00392157, 0.572549)
+
+[node name="Gamelamp" type="CanvasLayer"]
+script = ExtResource("1_dl4hy")
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 99.0
+offset_top = 84.0
+offset_right = -60.0
+offset_bottom = -60.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dpr58")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="GameView" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(600, 600)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="Backgroundboard" type="Panel" parent="MarginContainer/VBoxContainer/GameView"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_xhko0")
+
+[node name="Boardlamp" parent="MarginContainer/VBoxContainer/GameView" instance=ExtResource("2_dl4hy")]
+layout_mode = 2
+
+[node name="Boardborder" type="Panel" parent="MarginContainer/VBoxContainer/GameView"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_eesrs")
+
+[node name="Startoverlay" type="Panel" parent="MarginContainer/VBoxContainer/GameView"]
+visible = false
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_iea0x")
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/GameView/Startoverlay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 35
+text = "Click to Start "
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -1,0 +1,18 @@
+join Rizal left [animation="Bounce In" length="0.0" wait="true" z_index="-5"]
+Rizal: Yes, Mother! I want to learn more.
+join Teodora right
+leave Rizal
+[style name="namelabel_teodora"]
+Teodora: You are truly eager to learn. Alright then, say the alphabet first.
+join Teodora right
+Teodora: You learned this when you were only three years old... use your intelligence correctly.
+join Rizal left
+leave Teodora
+[style name="new_style"]
+Rizal: Why do I need to keep studying, Mother?
+join Teodora right
+leave Rizal
+[style name="namelabel_teodora"]
+Teodora: Because knowledge is a light. And our country is living in darkness.
+[signal arg="minipuzzle"]
+set {francisco.aftertalkteodora} = true

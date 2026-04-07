@@ -1,0 +1,21 @@
+join francisco right
+[style name="namelabel_francisco"]
+francisco: Pepe, a person should not only be intelligent. He must also be honorable.
+leave francisco
+join Rizal left
+[style name="new_style"]
+Rizal: Father, why do the friars own so much land?
+leave Rizal
+join francisco right
+[style name="namelabel_francisco"]
+francisco: There are questions, my son... that must be asked in silence.
+join Rizal left
+leave francisco
+[style name="new_style"]
+Rizal: But is that just?
+leave Rizal
+join francisco right
+[style name="namelabel_francisco"]
+francisco: Justice is not always given freely. Sometimes, it is fought for.
+leave francisco
+set {francisco.aftertalkteodora} = true

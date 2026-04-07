@@ -1,0 +1,13 @@
+join juancho right
+juancho: So you are the child from Calamba.
+join Rizal left
+leave juancho
+Rizal: I love to draw... but I am not good at it yet.
+leave Rizal
+join juancho right
+juancho: Talent is useless without practice. Show me.
+juancho: You see details that others do not notice. Such an ability is rare.
+join Rizal left
+Rizal: Can art do anything to change the world?
+juancho: Art preserves the truth. Someday, you may need that.
+[signal arg="minigamepuzzleart"]

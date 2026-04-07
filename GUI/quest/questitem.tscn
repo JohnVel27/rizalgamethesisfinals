@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://bqpdfjgu3npe5"]
+
+[ext_resource type="Script" uid="uid://imwv80to8pup" path="res://GUI/quest/questitem.gd" id="1_1xuar"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_2whqr"]
+
+[sub_resource type="FontVariation" id="FontVariation_2whqr"]
+base_font = ExtResource("2_2whqr")
+
+[sub_resource type="FontVariation" id="FontVariation_hpw0x"]
+base_font = ExtResource("2_2whqr")
+
+[node name="questitem" type="Button"]
+custom_minimum_size = Vector2(500, 150)
+offset_right = 536.0
+offset_bottom = 149.0
+theme_override_font_sizes/font_size = 20
+script = ExtResource("1_1xuar")
+
+[node name="titlelabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 13.0
+offset_right = 408.0
+offset_bottom = 114.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_2whqr")
+theme_override_font_sizes/font_size = 50
+text = "Quest Title"
+clip_text = true
+text_overrun_behavior = 3
+
+[node name="steplabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 81.0
+offset_right = 262.0
+offset_bottom = 123.0
+theme_override_fonts/font = SubResource("FontVariation_hpw0x")
+theme_override_font_sizes/font_size = 30
+text = "quest step 1/5"
+clip_text = true
+text_overrun_behavior = 3

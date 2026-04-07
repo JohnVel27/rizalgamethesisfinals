@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://7mp2s8nevhak"]
+
+[ext_resource type="Texture2D" uid="uid://bf5ieaoistwq5" path="res://GUI/instruction/normalbutton.tres" id="1_p0mfi"]
+[ext_resource type="Script" uid="uid://dlwfc1153gpwy" path="res://GUI/instruction/instruction.gd" id="2_adc37"]
+[ext_resource type="Texture2D" uid="uid://cjrqeit0or1vx" path="res://GUI/instruction/hovertexture.tres" id="2_y0t6n"]
+
+[node name="Button" type="TextureButton"]
+offset_right = 220.0
+offset_bottom = 217.0
+mouse_filter = 1
+texture_normal = ExtResource("1_p0mfi")
+texture_hover = ExtResource("2_y0t6n")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("2_adc37")

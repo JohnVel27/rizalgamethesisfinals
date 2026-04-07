@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://d0d1j41th0kpl"]
+
+[ext_resource type="Script" uid="uid://doq2jcjk4d2i6" path="res://item/item_pickup/item_pickup.gd" id="1_jam0u"]
+[ext_resource type="Texture2D" uid="uid://cxo5tm4d472o4" path="res://item/sprites/items.png" id="2_gv030"]
+[ext_resource type="AudioStream" uid="uid://ch2b8qgpwfda6" path="res://item/item_pickup/item_pickup.wav" id="2_u7veq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pjtoe"]
+radius = 20.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nurg5"]
+atlas = ExtResource("2_gv030")
+region = Rect2(196.595, 0, 25.6198, 32)
+
+[node name="ItemPickup" type="Node2D"]
+script = ExtResource("1_jam0u")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_pjtoe")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, 9.53674e-07)
+scale = Vector2(2.1, 1.875)
+texture = SubResource("AtlasTexture_nurg5")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_u7veq")

@@ -1,0 +1,106 @@
+[gd_scene load_steps=8 format=3 uid="uid://c45kikv6nn0an"]
+
+[ext_resource type="Script" uid="uid://1jc0qcmk7rk7" path="res://GUI/quest/scripts/quest_menu.gd" id="1_7f168"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_mnqp4"]
+[ext_resource type="PackedScene" uid="uid://bqpdfjgu3npe5" path="res://GUI/quest/questitem.tscn" id="2_qb3tv"]
+[ext_resource type="PackedScene" uid="uid://b0hbqwkdn40k4" path="res://GUI/quest/queststepitem.tscn" id="3_7tqwi"]
+
+[sub_resource type="FontVariation" id="FontVariation_3cb3n"]
+base_font = ExtResource("2_mnqp4")
+
+[sub_resource type="FontVariation" id="FontVariation_mnqp4"]
+base_font = ExtResource("2_mnqp4")
+
+[sub_resource type="FontVariation" id="FontVariation_hujse"]
+base_font = ExtResource("2_mnqp4")
+
+[node name="QuestMenu" type="CanvasLayer"]
+script = ExtResource("1_7f168")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 8.0
+offset_right = 6.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="."]
+offset_left = 414.0
+offset_top = 44.0
+offset_right = 879.0
+offset_bottom = 124.0
+size_flags_horizontal = 4
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_3cb3n")
+theme_override_font_sizes/font_size = 80
+text = "QUEST"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+offset_left = 37.0
+offset_top = 184.0
+offset_right = 567.0
+offset_bottom = 714.0
+follow_focus = true
+scroll_vertical_custom_step = 100.0
+horizontal_scroll_mode = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="questitem" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem2" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem3" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem4" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem5" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem6" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 601.0
+offset_top = 148.0
+offset_right = 1128.0
+offset_bottom = 376.0
+
+[node name="titlelabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_mnqp4")
+theme_override_font_sizes/font_size = 75
+text = "quest title"
+autowrap_mode = 2
+
+[node name="descriptionlabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontVariation_hujse")
+theme_override_font_sizes/font_size = 50
+text = "quest description"
+autowrap_mode = 2
+
+[node name="queststepitem" parent="VBoxContainer" instance=ExtResource("3_7tqwi")]
+layout_mode = 2

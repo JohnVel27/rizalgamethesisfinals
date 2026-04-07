@@ -1,0 +1,14 @@
+join Teodora right
+Teodora: Pepe, Biñan will not be like home.
+leave Teodora
+join Rizal left
+Rizal: I will study hard, Mother.
+join Teodora right
+leave Rizal
+Teodora: Not just studying. Observe as well. Get to know the people... not just the books.
+leave Teodora
+join francisco right
+francisco: Remember, my child, you should always carry yourself with dignity wherever you go.
+leave francisco
+join Rizal left
+Rizal: Yes, Father.

@@ -1,0 +1,31 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "Maestro Carrera",
+&"description": "",
+&"display_name": "Maestro Carrera",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(280, 20),
+&"portraits": {
+"Maestro Carrera": {
+"export_overrides": {
+"image": "\"res://asset/picture_character/Maestro_Carrera.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 0.45
+}

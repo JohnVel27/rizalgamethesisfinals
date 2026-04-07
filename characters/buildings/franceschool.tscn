@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://ftpgv5ih4oa"]
+
+[ext_resource type="Texture2D" uid="uid://b671psuriw6h3" path="res://levels/sprites/place/University_france.png" id="1_8kqhf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqs30"]
+atlas = ExtResource("1_8kqhf")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x0gfy"]
+size = Vector2(983, 426.5)
+
+[node name="Franceschool" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(186.75, 80.75)
+scale = Vector2(1.5755, 1.52606)
+texture = SubResource("AtlasTexture_fqs30")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(190.5, 67.25)
+shape = SubResource("RectangleShape2D_x0gfy")

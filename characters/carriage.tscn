@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6uwktd5sd0bg"]
+
+[ext_resource type="Texture2D" uid="uid://bun1dycllcef1" path="res://characters/NPC/sprites/Carriage.png" id="1_jyagx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pbi67"]
+radius = 72.691124
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jyagx"]
+radius = 44.28318
+
+[node name="Carriage" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(326.00003, 134)
+scale = Vector2(2.2331672, 2.253138)
+texture = ExtResource("1_jyagx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -1)
+shape = SubResource("CircleShape2D_pbi67")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(124, 16)
+shape = SubResource("CircleShape2D_jyagx")

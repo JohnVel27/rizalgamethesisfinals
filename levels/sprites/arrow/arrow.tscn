@@ -1,0 +1,67 @@
+[gd_scene load_steps=15 format=3 uid="uid://tpar5p55q7uk"]
+
+[ext_resource type="Texture2D" uid="uid://bwdykjutxvocm" path="res://levels/sprites/arrow/Arrow_Down_red1.png" id="1_0rq51"]
+[ext_resource type="Script" uid="uid://dae0rgc8y5n6w" path="res://levels/sprites/arrow/arrow.gd" id="1_clnac"]
+[ext_resource type="Texture2D" uid="uid://di3x5t8q5aec8" path="res://levels/sprites/arrow/Arrow_Down_red2.png" id="2_clnac"]
+[ext_resource type="Texture2D" uid="uid://6ffmmstjtfu1" path="res://levels/sprites/arrow/Arrow_Down_red3.png" id="3_5hreb"]
+[ext_resource type="Texture2D" uid="uid://bmekqf33ay2j6" path="res://levels/sprites/arrow/Arrow_Down_red4.png" id="4_67heu"]
+[ext_resource type="Texture2D" uid="uid://dp6qnutad0gdh" path="res://levels/sprites/arrow/Arrow_Down_red5.png" id="5_ur7t8"]
+[ext_resource type="Texture2D" uid="uid://d0kq5qvkfwsiv" path="res://levels/sprites/arrow/Arrow_Down_red6.png" id="6_cywbh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y4tqj"]
+atlas = ExtResource("1_0rq51")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7nk2"]
+atlas = ExtResource("2_clnac")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oahe2"]
+atlas = ExtResource("3_5hreb")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2xxv"]
+atlas = ExtResource("4_67heu")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f2vot"]
+atlas = ExtResource("5_ur7t8")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v4ckm"]
+atlas = ExtResource("6_cywbh")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_87cr2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y4tqj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7nk2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oahe2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2xxv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f2vot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v4ckm")
+}],
+"loop": true,
+"name": &"animated",
+"speed": 5.0
+}]
+
+[node name="Arrow" type="CharacterBody2D"]
+script = ExtResource("1_clnac")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_87cr2")
+animation = &"animated"
+frame_progress = 0.361881

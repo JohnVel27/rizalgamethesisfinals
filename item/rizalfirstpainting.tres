@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://cobhe6aqrs7xd"]
+
+[ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_jp2x3"]
+[ext_resource type="Texture2D" uid="uid://chrndvnr00f55" path="res://item/sprites/paintingspanish.png" id="2_xfgau"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hj01n"]
+atlas = ExtResource("2_xfgau")
+
+[resource]
+script = ExtResource("1_jp2x3")
+name = "Rizal’s First Painting"
+description = "One of Rizal’s first artworks, created under the guidance of Juancho Carrera. Through painting, he learned to express his observations of the world. Art became one of his ways to showcase the truth and beauty of life."
+texture = SubResource("AtlasTexture_hj01n")
+metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

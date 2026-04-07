@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Quest" load_steps=5 format=3 uid="uid://cgwt60cukrlfn"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_nx1eo"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_i7f02"]
+[ext_resource type="Resource" uid="uid://bfciiu5v0ocai" path="res://item/tornhandkerchief.tres" id="2_iis2r"]
+
+[sub_resource type="Resource" id="Resource_7vv8h"]
+script = ExtResource("1_nx1eo")
+item = ExtResource("2_iis2r")
+quantity = 1
+metadata/_custom_type_script = "uid://7ktwwmvwtcq0"
+
+[resource]
+script = ExtResource("2_i7f02")
+title = "Bullies at the school"
+description = "Rizal's classmate have some things to say about the new kid from Calamba"
+steps = Array[String](["Talk to your classmate and confront their grievances towards you"])
+reward_items = Array[ExtResource("1_nx1eo")]([SubResource("Resource_7vv8h")])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

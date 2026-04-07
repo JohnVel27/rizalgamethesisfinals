@@ -1,0 +1,178 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="rizalgamethesis"
+run/main_scene="uid://m6axqlk1c0rq"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Transitionlayer="*res://levels/Transitionlayer.tscn"
+LevelManager="*res://00_globals/global_level_manager.gd"
+PlayerManager="*res://00_globals/global_player_manager.gd"
+InventoryMenu="*res://GUI/inventory/inventory_menu.tscn"
+QuestMenu="*res://GUI/quest/quest_menu.tscn"
+QuestManager="*res://quest/scripts/global_quest_manager.gd"
+Dialogic="*uid://ds2q0uclmolvu"
+
+[dialogic]
+
+directories/dch_directory={
+"Bully": "res://dialogue/characters/Bully.dch",
+"Captain": "res://dialogue/characters/Captain.dch",
+"Dr Louis de Wecke": "res://dialogue/characters/Dr Louis de Wecke.dch",
+"Graciano López Jaena": "res://dialogue/characters/Graciano López Jaena.dch",
+"Justiano": "res://dialogue/characters/Justiano.dch",
+"Marcelo H del Pilar": "res://dialogue/characters/Marcelo H del Pilar.dch",
+"Maximo Viola": "res://dialogue/characters/Maximo Viola.dch",
+"Narrator": "res://dialogue/characters/Narrator.dch",
+"Paciano": "res://dialogue/characters/Paciano.dch",
+"Printing Master": "res://dialogue/characters/Printing Master.dch",
+"Reformist": "res://dialogue/characters/Reformist.dch",
+"Rizal": "res://dialogue/characters/Rizal.dch",
+"Rizal sibling": "res://dialogue/characters/Rizal sibling.dch",
+"Spanish Official": "res://dialogue/characters/Spanish Official.dch",
+"TenantFarmer": "res://dialogue/characters/TenantFarmer.dch",
+"Teodora": "res://dialogue/characters/Teodora.dch",
+"Villagers": "res://dialogue/characters/Villagers.dch",
+"classmates": "res://dialogue/characters/classmates.dch",
+"dominicanfriars": "res://dialogue/characters/dominicanfriars.dch",
+"european scholar": "res://dialogue/characters/european scholar.dch",
+"fathersanchez": "res://dialogue/characters/fathersanchez.dch",
+"francisco": "res://dialogue/characters/francisco.dch",
+"juancho": "res://dialogue/characters/juancho.dch",
+"justinianotop": "res://dialogue/characters/justinianotop.dch",
+"passenger": "res://dialogue/characters/passenger.dch",
+"students": "res://dialogue/characters/students.dch"
+}
+directories/dtl_directory={
+"1": "res://dialogue/timeline/midterm/1/1.dtl",
+"1midtermnarrator1": "res://dialogue/timeline/midterm/1/1midtermnarrator1.dtl",
+"1narratorfirstglimpse": "res://dialogue/timeline/prelim/1/1narratorfirstglimpse.dtl",
+"2/1": "res://dialogue/timeline/midterm/2/1.dtl",
+"2juanchorizal1": "res://dialogue/timeline/prelim/2/2juanchorizal1.dtl",
+"2maestrocruzrizal1": "res://dialogue/timeline/prelim/2/2maestrocruzrizal1.dtl",
+"2midtermnarrator1": "res://dialogue/timeline/midterm/2/2midtermnarrator1.dtl",
+"2narrator1": "res://dialogue/timeline/prelim/2/2narrator1.dtl",
+"3/1": "res://dialogue/timeline/midterm/3/1.dtl",
+"3midtermnarrator1": "res://dialogue/timeline/midterm/3/3midtermnarrator1.dtl",
+"3narrator1": "res://dialogue/timeline/prelim/3/3narrator1.dtl",
+"3narrator2": "res://dialogue/timeline/prelim/3/3narrator2.dtl",
+"4/1": "res://dialogue/timeline/midterm/4/1.dtl",
+"4narrato2": "res://dialogue/timeline/prelim/4/4narrato2.dtl",
+"4narrator1": "res://dialogue/timeline/prelim/4/4narrator1.dtl",
+"5/1": "res://dialogue/timeline/midterm/5/1.dtl",
+"5midtermnarrator1": "res://dialogue/timeline/midterm/5/5midtermnarrator1.dtl",
+"5midtermnarrator2": "res://dialogue/timeline/midterm/5/5midtermnarrator2.dtl",
+"Narrator-calamba": "res://dialogue/timeline/prelim/1/Narrator-calamba.dtl",
+"brawlmission": "res://dialogue/timeline/prelim/2/brawlmission.dtl",
+"firstbrawl": "res://dialogue/timeline/prelim/2/firstbrawl.dtl",
+"firstbrawl2": "res://dialogue/timeline/prelim/2/firstbrawl2.dtl",
+"firstglimpseofinjustice": "res://dialogue/timeline/prelim/1/firstglimpseofinjustice.dtl",
+"foughtback": "res://dialogue/timeline/prelim/2/foughtback.dtl",
+"goingtobinan": "res://dialogue/timeline/prelim/2/goingtobinan.dtl",
+"gotomedicalclinic": "res://dialogue/timeline/midterm/2/gotomedicalclinic.dtl",
+"narrator-livingroom": "res://dialogue/timeline/prelim/1/narrator-livingroom.dtl",
+"remind_rizal_talk_francisco": "res://dialogue/timeline/prelim/1/remind_rizal_talk_francisco.dtl",
+"remind_teodora": "res://dialogue/timeline/prelim/1/remind_teodora.dtl",
+"rizalfranciscotalk1": "res://dialogue/timeline/prelim/1/rizalfranciscotalk1.dtl",
+"rizalteodoratalk1": "res://dialogue/timeline/prelim/1/rizalteodoratalk1.dtl",
+"storyofmoth": "res://dialogue/timeline/prelim/1/storyofmoth.dtl"
+}
+layout/style_directory={
+"": "res://dialogue/styles/new_style.tres",
+"font_sizes": "res://dialogue/styles/font_sizes.tres",
+"namelabel_francisco": "res://dialogue/styles/namelabel_francisco.tres",
+"namelabel_teodora": "res://dialogue/styles/namelabel_teodora.tres",
+"new_style": "res://dialogue/styles/new_style.tres",
+"transparentstylebox": "res://dialogue/styles/transparentstylebox.tres"
+}
+layout/style_list=["res://dialogue/styles/new_style.tres", "res://dialogue/styles/font_sizes.tres", "res://dialogue/styles/namelabel_teodora.tres", "res://dialogue/styles/namelabel_francisco.tres", "res://dialogue/styles/transparentstylebox.tres"]
+layout/default_style="res://dialogue/styles/new_style.tres"
+variables={
+"francisco": {
+"aftertalkteodora": false
+},
+"justianorizalmultiplechoice": {
+"justianomultiplechoicefinished": false,
+"justinianomultiplechoicestarted": false
+}
+}
+glossary/default_case_sensitive=true
+
+[display]
+
+window/size/viewport_width=1000
+window/size/viewport_height=800
+window/size/window_width_override=1600
+window/size/window_height_override=1000
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
+
+[input]
+
+RightClick={
+"deadzone": 0.2,
+"events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":2,"position":Vector2(274, 16),"global_position":Vector2(283, 64),"factor":1.0,"button_index":2,"canceled":false,"pressed":true,"double_click":false,"script":null)
+]
+}
+dialogic_default_action={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194309,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":1,"canceled":false,"pressed":true,"double_click":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":32,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":88,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
+]
+}
+interact={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":69,"key_label":0,"unicode":101,"location":0,"echo":false,"script":null)
+]
+}
+inventory={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":81,"key_label":0,"unicode":113,"location":0,"echo":false,"script":null)
+]
+}
+quest={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":87,"key_label":0,"unicode":119,"location":0,"echo":false,"script":null)
+]
+}
+test={
+"deadzone": 0.2,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":80,"key_label":0,"unicode":112,"location":0,"echo":false,"script":null)
+]
+}
+
+[layer_names]
+
+2d_physics/layer_2="jesuitprofessors"
+2d_physics/layer_3="classmate3"
+2d_physics/layer_4="dominicanfriars"
+2d_physics/layer_5="walls"
+2d_physics/layer_6="classmate1"
+2d_physics/layer_7="teodora"
+2d_physics/layer_8="Francisco"
+2d_physics/layer_9="Player"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

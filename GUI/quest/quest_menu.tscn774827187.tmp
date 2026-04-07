@@ -1,0 +1,71 @@
+[gd_scene load_steps=4 format=3 uid="uid://c45kikv6nn0an"]
+
+[ext_resource type="Script" uid="uid://1jc0qcmk7rk7" path="res://GUI/quest/scripts/quest_menu.gd" id="1_7f168"]
+[ext_resource type="PackedScene" uid="uid://bqpdfjgu3npe5" path="res://GUI/quest/questitem.tscn" id="2_qb3tv"]
+[ext_resource type="PackedScene" uid="uid://b0hbqwkdn40k4" path="res://GUI/quest/queststepitem.tscn" id="3_7tqwi"]
+
+[node name="QuestMenu" type="CanvasLayer"]
+script = ExtResource("1_7f168")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+offset_left = 14.0
+offset_top = 14.0
+offset_right = 612.0
+offset_bottom = 635.0
+follow_focus = true
+scroll_vertical_custom_step = 100.0
+horizontal_scroll_mode = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="questitem" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem2" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem3" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem4" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="questitem5" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 613.0
+offset_top = 17.0
+offset_right = 814.0
+offset_bottom = 97.0
+
+[node name="titlelabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+text = "quest title "
+autowrap_mode = 2
+
+[node name="descriptionlabel" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 20)
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "quest description"
+autowrap_mode = 2
+
+[node name="queststepitem" parent="VBoxContainer" instance=ExtResource("3_7tqwi")]
+layout_mode = 2

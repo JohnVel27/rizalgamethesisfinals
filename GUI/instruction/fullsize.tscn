@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bana47hu7ydsu"]
+
+[ext_resource type="PackedScene" uid="uid://7mp2s8nevhak" path="res://GUI/instruction/button.tscn" id="1_5xrau"]
+
+[node name="Fullsize" type="CanvasLayer"]
+
+[node name="Button" parent="." instance=ExtResource("1_5xrau")]
+offset_right = 221.0
+offset_bottom = 229.0

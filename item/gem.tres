@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://t3yx2apedfwh"]
+
+[ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_5t0f1"]
+[ext_resource type="Texture2D" uid="uid://cxo5tm4d472o4" path="res://item/sprites/items.png" id="2_jwhjr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f83os"]
+atlas = ExtResource("2_jwhjr")
+region = Rect2(0, 0, 30.4796, 32)
+
+[resource]
+script = ExtResource("1_5t0f1")
+name = "Gem"
+description = "A gem (or gemstone) is a rare, durable, and aesthetically appealing mineral, rock, or organic material (like amber or pearl) that is cut and polished for use in jewelry or ornamentation. Valued for color, brilliance, and hardness, they are categorized as precious (diamond, ruby, sapphire, emerald) or semi-precious. Study.comStudy.com +4Key Characteristics and Types:Physical Properties: Gems are defined by their beauty, durability (resistance to damage), and rarity.Composition: While most are minerals, some are organic (e.g., pearl, coral, amber).Cutting Styles: They are often polished as cabochons (smooth, convex) or faceted (cut with flat planes to enhance light reflection).Classification: Traditionally split into precious (diamond, ruby, sapphire, emerald) and semi-precious (all other gemstones like amethyst, garnet, and jade). Study.comStudy.com +5Commonly Recognized Gemstones:Diamond: Known for extreme hardness and brilliance.Ruby: Prized for its deep red color.Sapphire: Known for its blue, though it comes in other colors.Emerald: A green variety of beryl.Amethyst & Citrine: Popular varieties of quartz."
+texture = SubResource("AtlasTexture_f83os")
+metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

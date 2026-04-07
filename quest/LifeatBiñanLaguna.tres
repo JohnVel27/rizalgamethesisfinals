@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Quest" load_steps=7 format=3 uid="uid://cd855qvb6fw5x"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_6rysk"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_5d76o"]
+[ext_resource type="Resource" uid="uid://b47v6p0kcdieb" path="res://item/oldmapcalamba.tres" id="2_jg66u"]
+[ext_resource type="Resource" uid="uid://cobhe6aqrs7xd" path="res://item/rizalfirstpainting.tres" id="3_addce"]
+
+[sub_resource type="Resource" id="Resource_kokhk"]
+script = ExtResource("1_6rysk")
+item = ExtResource("2_jg66u")
+quantity = 1
+metadata/_custom_type_script = "uid://7ktwwmvwtcq0"
+
+[sub_resource type="Resource" id="Resource_fydy8"]
+script = ExtResource("1_6rysk")
+item = ExtResource("3_addce")
+quantity = 1
+metadata/_custom_type_script = "uid://7ktwwmvwtcq0"
+
+[resource]
+script = ExtResource("2_5d76o")
+title = "Life at Biñan Laguna"
+description = "Go to Biñan Laguna to study arithmetic and art under the tutelage of Maestro Cruz and Juancho Carrera"
+steps = Array[String](["enter the nipa hut meet the maestro and enter his class", "Meet Juancho Carrera and learn more about art"])
+reward_items = Array[ExtResource("1_6rysk")]([SubResource("Resource_kokhk"), SubResource("Resource_fydy8")])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

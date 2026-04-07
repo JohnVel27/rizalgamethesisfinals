@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ef1q6vwnd3tc"]
+
+[ext_resource type="Script" uid="uid://ct01dwbr2d2bd" path="res://src/scene/board/board.gd" id="1_5pb6c"]
+[ext_resource type="PackedScene" uid="uid://ch0yn4l0m4g8e" path="res://src/scene/Tile/tile.tscn" id="2_k5c5n"]
+
+[node name="Board" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5pb6c")
+board_size = 2
+tile_scene = ExtResource("2_k5c5n")

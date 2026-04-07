@@ -1,0 +1,29 @@
+join Teodora right
+[style name="namelabel_teodora"]
+Teodora: Tonight, I will tell you a story. It is about a moth...
+Teodora: The mother moth warned her child not to go near the flame. But the young moth wanted to see the light in its own way.
+join Rizal left
+leave Teodora
+[style name="new_style"]
+Rizal: What happened mother?
+join Teodora right
+leave Rizal
+[style name="namelabel_teodora"]
+Teodora: It flew closer... and closer...
+leave Teodora
+join Rizal left
+[style name="new_style"]
+Rizal: Mother... why didn't he listen?
+join Teodora right
+leave Rizal
+[style name="namelabel_teodora"]
+Teodora: Because there are those who are willing to do everything... to reach the light.
+join Rizal left
+leave Teodora
+[style name="new_style"]
+Rizal: Was the moth foolish... or brave?
+leave Rizal
+join Teodora right
+[style name="namelabel_teodora"]
+Teodora: That depends on what he is willing to offer.
+[signal arg="puzzlegame"]

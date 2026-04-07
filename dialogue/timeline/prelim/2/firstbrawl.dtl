@@ -1,0 +1,12 @@
+join classmates left
+classmates: Look who it is. Maestro Cruz’s favorite student.
+classmates: He thinks he’s smarter than everyone else.
+leave classmates
+join Rizal left
+Rizal: I only want to learn.
+leave Rizal
+join Bully right
+join Rizal left
+Bully: If you're so smart, prove you're brave too.
+Rizal: What do you mean?
+Bully: Let’s see if the boy from Calamba can fight.

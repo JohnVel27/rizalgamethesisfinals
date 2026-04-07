@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4t6bg6ob83td"]
+
+[ext_resource type="Texture2D" uid="uid://crvb5hog4jdt6" path="res://levels/sprites/place/House_France.png" id="1_tpcqh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jm2c8"]
+atlas = ExtResource("1_tpcqh")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nnd5a"]
+size = Vector2(244, 369)
+
+[node name="Francehouse" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_jm2c8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 2.5)
+shape = SubResource("RectangleShape2D_nnd5a")

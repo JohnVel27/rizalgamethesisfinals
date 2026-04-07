@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://c1uj5wtyyopj4"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_y5qkx"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_jvadf"]
+
+[resource]
+script = ExtResource("2_jvadf")
+title = "Secondary Education at Ateneo"
+description = "After years of learning arithmetic and art in Biñan Laguna, its time for rizal to have a properly learn from the accademics at the ateneo university 
+Steps"
+steps = Array[String](["Enter Ateneo"])
+reward_items = Array[ExtResource("1_y5qkx")]([])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

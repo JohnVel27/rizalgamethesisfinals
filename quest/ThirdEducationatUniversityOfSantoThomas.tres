@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Quest" load_steps=3 format=3 uid="uid://cdkjykkibk6vp"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_e1i34"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_ion0l"]
+
+[resource]
+script = ExtResource("2_ion0l")
+title = "Third Education at University Of Santo Thomas"
+description = "Rizal's thirst for knowledge and accademic excellence has led him to study in the University Of Santo Thomas, here he will learn more about medicine and the unfair descrimination among Filipinos."
+steps = Array[String](["Enter UST"])
+reward_items = Array[ExtResource("1_e1i34")]([])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

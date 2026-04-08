@@ -1,14 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dias0waijlwni"]
+[gd_scene load_steps=5 format=3 uid="uid://dias0waijlwni"]
 
 [ext_resource type="Script" uid="uid://dfkci35jnixcn" path="res://characters/typewritter/typewritter.gd" id="1_hf6y7"]
-[ext_resource type="Texture2D" uid="uid://diu2s77lqwlwk" path="res://levels/sprites/environment/Sconce_Spritesheet.png" id="1_vqu8b"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_hf6y7"]
-atlas = ExtResource("1_vqu8b")
-region = Rect2(0, 0, 49, 48.5)
+[ext_resource type="Texture2D" uid="uid://cumk7qvqgax78" path="res://levels/sprites/environment/TABLE.png" id="2_hf6y7"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8f1ks"]
-radius = 21.3776
+radius = 42.44997
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_6u5q5"]
 radius = 84.8999
@@ -17,7 +13,7 @@ radius = 84.8999
 script = ExtResource("1_hf6y7")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = SubResource("AtlasTexture_hf6y7")
+texture = ExtResource("2_hf6y7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 4)

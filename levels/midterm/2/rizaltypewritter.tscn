@@ -26396,4 +26396,4 @@ visible = false
 position = Vector2(807, 644)
 
 [node name="paciano" parent="." instance=ExtResource("11_p35ok")]
-position = Vector2(649, 315)
+position = Vector2(597, 111)

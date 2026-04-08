@@ -49,6 +49,9 @@ func _ready() -> void:
 	elif scene_path.ends_with("res://levels/prelim/4/uhallway.tscn"):
 		start_opening_dialogue("4narrato2")
 		
+	elif scene_path.ends_with("res://levels/midterm/3/rizalcomebackpier.tscn"):
+		start_opening_dialogue("3midtermnarrator0")
+		
 
 func start_opening_dialogue(timeline_name: String) -> void:
 	if Dialogic.current_timeline != null:
@@ -66,6 +69,9 @@ func _on_dialogue_finished() -> void:
 		
 	if current_opening_dialogue == "4narrato2":
 		await start_smooth_transition("res://GUI/mainmenu/levels.tscn")
+	
+	if current_opening_dialogue == "3midtermnarrator0":
+		await start_smooth_transition("res://levels/midterm/3/comebackhome.tscn")
 		
 	current_opening_dialogue = ""
 	

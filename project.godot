@@ -69,6 +69,7 @@ directories/dtl_directory={
 "2midtermnarrator1": "res://dialogue/timeline/midterm/2/2midtermnarrator1.dtl",
 "2narrator1": "res://dialogue/timeline/prelim/2/2narrator1.dtl",
 "3/1": "res://dialogue/timeline/midterm/3/1.dtl",
+"3midtermnarrator0": "res://dialogue/timeline/midterm/3/3midtermnarrator0.dtl",
 "3midtermnarrator1": "res://dialogue/timeline/midterm/3/3midtermnarrator1.dtl",
 "3narrator1": "res://dialogue/timeline/prelim/3/3narrator1.dtl",
 "3narrator2": "res://dialogue/timeline/prelim/3/3narrator2.dtl",
@@ -95,13 +96,14 @@ directories/dtl_directory={
 }
 layout/style_directory={
 "": "res://dialogue/styles/new_style.tres",
+"blacktransparent": "res://dialogue/styles/blacktransparent.tres",
 "font_sizes": "res://dialogue/styles/font_sizes.tres",
 "namelabel_francisco": "res://dialogue/styles/namelabel_francisco.tres",
 "namelabel_teodora": "res://dialogue/styles/namelabel_teodora.tres",
 "new_style": "res://dialogue/styles/new_style.tres",
 "transparentstylebox": "res://dialogue/styles/transparentstylebox.tres"
 }
-layout/style_list=["res://dialogue/styles/new_style.tres", "res://dialogue/styles/font_sizes.tres", "res://dialogue/styles/namelabel_teodora.tres", "res://dialogue/styles/namelabel_francisco.tres", "res://dialogue/styles/transparentstylebox.tres"]
+layout/style_list=["res://dialogue/styles/new_style.tres", "res://dialogue/styles/font_sizes.tres", "res://dialogue/styles/namelabel_teodora.tres", "res://dialogue/styles/namelabel_francisco.tres", "res://dialogue/styles/transparentstylebox.tres", "res://dialogue/styles/blacktransparent.tres"]
 layout/default_style="res://dialogue/styles/new_style.tres"
 variables={
 "francisco": {

@@ -16,7 +16,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 config/name="rizalgamethesis"
 run/main_scene="uid://m6axqlk1c0rq"
-config/features=PackedStringArray("4.6", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -27,7 +27,7 @@ PlayerManager="*res://00_globals/global_player_manager.gd"
 InventoryMenu="*res://GUI/inventory/inventory_menu.tscn"
 QuestMenu="*res://GUI/quest/quest_menu.tscn"
 QuestManager="*res://quest/scripts/global_quest_manager.gd"
-Dialogic="*uid://ds2q0uclmolvu"
+Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
@@ -92,7 +92,8 @@ directories/dtl_directory={
 "remind_teodora": "res://dialogue/timeline/prelim/1/remind_teodora.dtl",
 "rizalfranciscotalk1": "res://dialogue/timeline/prelim/1/rizalfranciscotalk1.dtl",
 "rizalteodoratalk1": "res://dialogue/timeline/prelim/1/rizalteodoratalk1.dtl",
-"storyofmoth": "res://dialogue/timeline/prelim/1/storyofmoth.dtl"
+"storyofmoth": "res://dialogue/timeline/prelim/1/storyofmoth.dtl",
+"typewritter": "res://dialogue/timeline/midterm/2/typewritter.dtl"
 }
 layout/style_directory={
 "": "res://dialogue/styles/new_style.tres",

@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://dias0waijlwni"]
+
+[ext_resource type="Script" uid="uid://dfkci35jnixcn" path="res://characters/typewritter/typewritter.gd" id="1_hf6y7"]
+[ext_resource type="Texture2D" uid="uid://diu2s77lqwlwk" path="res://levels/sprites/environment/Sconce_Spritesheet.png" id="1_vqu8b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hf6y7"]
+atlas = ExtResource("1_vqu8b")
+region = Rect2(0, 0, 49, 48.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8f1ks"]
+radius = 21.3776
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6u5q5"]
+radius = 84.8999
+
+[node name="typewritter" type="CharacterBody2D"]
+script = ExtResource("1_hf6y7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_hf6y7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 4)
+shape = SubResource("CircleShape2D_8f1ks")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="chatdetection" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection"]
+shape = SubResource("CircleShape2D_6u5q5")
+
+[connection signal="body_entered" from="chatdetection" to="." method="_on_chatdetection_body_entered"]
+[connection signal="body_exited" from="chatdetection" to="." method="_on_chatdetection_body_exited"]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://c1dnfqghxswy"]
 
-[ext_resource type="Script" uid="uid://d235ko3vrd32m" path="res://transitionstoryboard/scripts/ateneo7.gd" id="1_4xd0c"]
-[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_4xd0c"]
+[ext_resource type="Script" uid="uid://d235ko3vrd32m" path="res://transitionstoryboard/scripts/ateneo7.gd" id="1_vn0pt"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_agcfr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l1uyl"]
 
@@ -10,10 +10,10 @@ texture = SubResource("AtlasTexture_l1uyl")
 modulate_color = Color(0, 0, 0, 1)
 
 [sub_resource type="FontVariation" id="FontVariation_cxhqw"]
-base_font = ExtResource("2_4xd0c")
+base_font = ExtResource("2_agcfr")
 
-[node name="ateneo7" type="CanvasLayer"]
-script = ExtResource("1_4xd0c")
+[node name="homecoming1" type="CanvasLayer"]
+script = ExtResource("1_vn0pt")
 
 [node name="Panel" type="Panel" parent="."]
 anchors_preset = 15
@@ -41,6 +41,6 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 30
 theme_override_fonts/font = SubResource("FontVariation_cxhqw")
 theme_override_font_sizes/font_size = 50
-text = "Ngunit ang edukasyon ay hindi lamang nagbigay sa kanya ng kaalaman… binuksan din nito ang kanyang isipan sa mas malawak na mundo."
+text = "1"
 horizontal_alignment = 3
 autowrap_mode = 3

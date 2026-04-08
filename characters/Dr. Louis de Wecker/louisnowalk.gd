@@ -4,7 +4,7 @@ extends CharacterBody2D
 @onready var player = get_parent().get_node_or_null("adultrizal")
 
 
-const TARGET_SCENE := "res://levels/midterm/3/comebackhome.tscn"
+const TARGET_SCENE := "res://levels/midterm/2/rizaltypewritter.tscn"
 var is_near_npc: bool = false
 var started_this_dialogue: bool = false 
 

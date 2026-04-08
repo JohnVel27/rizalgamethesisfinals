@@ -12,7 +12,7 @@ modulate_color = Color(0, 0, 0, 1)
 [sub_resource type="FontVariation" id="FontVariation_cxhqw"]
 base_font = ExtResource("2_pe3ml")
 
-[node name="ateneo6" type="CanvasLayer"]
+[node name="homecoming2" type="CanvasLayer"]
 script = ExtResource("1_pe3ml")
 
 [node name="Panel" type="Panel" parent="."]

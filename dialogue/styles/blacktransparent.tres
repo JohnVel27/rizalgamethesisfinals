@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogicStyle" load_steps=21 format=3 uid="uid://dc8r2hmbcrc0j"]
+[gd_resource type="Resource" script_class="DialogicStyle" format=3 uid="uid://dc8r2hmbcrc0j"]
 
 [ext_resource type="PackedScene" uid="uid://cqpb3ie51rwl5" path="res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn" id="1_d14ij"]
 [ext_resource type="Script" uid="uid://bwg6yncmh2cml" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_u3u1u"]
@@ -32,7 +32,7 @@ scene = ExtResource("5_knwrs")
 script = ExtResource("2_u3u1u")
 scene = ExtResource("6_by2uw")
 overrides = {
-"box_color_custom": "Color(0.0588235, 0.054902, 0.054902, 0)",
+"box_color_custom": "Color(0, 0, 0, 0)",
 "box_color_use_global": "false",
 "box_margin_bottom": "500.0",
 "box_size": "Vector2(1500, 500)",
@@ -98,4 +98,4 @@ layer_info = {
 "16": SubResource("Resource_ammoj"),
 "17": SubResource("Resource_li4l6")
 }
-metadata/_latest_layer = "13"
+metadata/_latest_layer = "16"

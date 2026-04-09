@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://ghw8yl2aqhk"]
+
+[ext_resource type="Script" uid="uid://bbv0o0qmvulms" path="res://puzzle/src/scene/board/boardgerman.gd" id="1_4atgh"]
+[ext_resource type="Texture2D" uid="uid://cfgpeho2a7ia0" path="res://puzzle/assets/picture/lasoli.jpg" id="2_4atgh"]
+[ext_resource type="PackedScene" uid="uid://b1njxypwq6ut5" path="res://puzzle/src/scene/Tile/tilegerman.tscn" id="2_ol6e5"]
+
+[node name="boardgerman" type="Control" unique_id=1352945816]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4atgh")
+board_size = 3
+tile_scene = ExtResource("2_ol6e5")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1390182927]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_4atgh")
+expand_mode = 1

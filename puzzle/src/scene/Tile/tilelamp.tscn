@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cemjb6121dhli"]
+[gd_scene format=3 uid="uid://cemjb6121dhli"]
 
 [ext_resource type="Script" uid="uid://dslacqk3fddhm" path="res://puzzle/src/scene/Tile/tile.gd" id="1_df0nn"]
 [ext_resource type="Texture2D" uid="uid://cuo6iiiwth285" path="res://puzzle/assets/picture/moth-to-solar-flame.jpg" id="2_0i4u1"]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=34 format=3 uid="uid://cmkaofbetgte"]
+[gd_scene format=3 uid="uid://cmkaofbetgte"]
 
-[ext_resource type="Script" uid="uid://dvx0cwkxpaohd" path="res://characters/paciano/pacianonowalk.gd" id="1_i8p5h"]
+[ext_resource type="Script" uid="uid://b88hgbx28jrjt" path="res://characters/filipino reformist/filipinoreformist.gd" id="1_ot4ny"]
 [ext_resource type="Texture2D" uid="uid://kcjb4jj8mrry" path="res://characters/paciano/PACIANO_RIZAL.png" id="2_yxh5i"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_81jhc"]
@@ -248,27 +248,27 @@ radius = 21.3776
 [sub_resource type="CircleShape2D" id="CircleShape2D_6u5q5"]
 radius = 84.8999
 
-[node name="filipinoreformist" type="CharacterBody2D"]
-script = ExtResource("1_i8p5h")
+[node name="filipinoreformist" type="CharacterBody2D" unique_id=1028390078]
+script = ExtResource("1_ot4ny")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1148526138]
 position = Vector2(1, -55)
 scale = Vector2(1.85156, 1.86765)
 sprite_frames = SubResource("SpriteFrames_034je")
 animation = &"carry_idle_down"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2051576076]
 position = Vector2(10, -25)
 shape = SubResource("CircleShape2D_8f1ks")
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." unique_id=726889250]
 
-[node name="chatdetection" type="Area2D" parent="."]
+[node name="chatdetection" type="Area2D" parent="." unique_id=365649541]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection" unique_id=2137110850]
 shape = SubResource("CircleShape2D_6u5q5")
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." unique_id=1341279935]
 offset_left = -44.0
 offset_top = -97.0
 offset_right = 93.0

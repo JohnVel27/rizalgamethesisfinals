@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=3 uid="uid://rl2ubgx68cwd"]
+[gd_scene format=3 uid="uid://rl2ubgx68cwd"]
 
 [ext_resource type="Script" uid="uid://e1ejki287rnc" path="res://characters/player/youngrizalscript.gd" id="1_pek1k"]
 [ext_resource type="Texture2D" uid="uid://b1qpxnw8bnt1n" path="res://characters/player/sprites/youngrizal/youngrizal.png" id="2_b0udd"]
@@ -275,24 +275,24 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="youngrizal" type="CharacterBody2D"]
+[node name="youngrizal" type="CharacterBody2D" unique_id=768214346]
 collision_mask = 17
 script = ExtResource("1_pek1k")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=375584053]
 position = Vector2(-10, -15)
 shape = SubResource("CircleShape2D_67vlx")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1788631284]
 position = Vector2(1.90735e-06, -17)
 scale = Vector2(2, 1.89063)
 sprite_frames = SubResource("SpriteFrames_gscx5")
 animation = &"carry_idle_up"
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2103287309]
 editor_draw_limits = true
 script = ExtResource("8_2iowp")
 
-[node name="walk_sfx" type="AudioStreamPlayer" parent="."]
+[node name="walk_sfx" type="AudioStreamPlayer" parent="." unique_id=2049816105]
 stream = ExtResource("4_6imks")
 volume_db = -20.0

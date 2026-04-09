@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bw4l0568s5s67"]
+
+[ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_ubttj"]
+
+[resource]
+script = ExtResource("1_ubttj")
+name = "Printing Press Proof Sheets"
+description = "Early printed pages of Rizal’s novel, funded by Maximo Viola. Each page carries risk—proof that ideas can be more powerful than weapons."
+metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

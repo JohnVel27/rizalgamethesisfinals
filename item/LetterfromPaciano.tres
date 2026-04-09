@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://g33i1c2t5by0"]
+
+[ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_ncjyq"]
+
+[resource]
+script = ExtResource("1_ncjyq")
+name = "Letter from Paciano"
+description = "A personal letter reminding Rizal of his purpose and the sacrifices made for his journey. A grounding reminder of home."
+metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

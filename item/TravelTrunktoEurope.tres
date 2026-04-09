@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dk7tceuhtnul6"]
+
+[ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_1khnx"]
+
+[resource]
+script = ExtResource("1_1khnx")
+name = "Travel Trunk to Europe"
+description = "A modest trunk carried by Rizal on his journey to Spain. Inside are books, letters, and dreams—symbolizing his leap into the unknown for the sake of knowledge. "
+metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

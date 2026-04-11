@@ -134,6 +134,8 @@ func _on_dialogue_finished() -> void:
 		await start_smooth_transition("res://levels/prelim/2/juanchocarrera.tscn")
 	if current_opening_dialogue == "StudyingPhilippineHistory":
 		await start_smooth_transition("res://levels/finals/3/familyresidence.tscn")
+	if current_opening_dialogue == "FoundingofLaLigaFilipina":
+		await start_smooth_transition("res://levels/finals/5/dapitanvillage.tscn")
 	current_opening_dialogue = ""
 
 # =========================

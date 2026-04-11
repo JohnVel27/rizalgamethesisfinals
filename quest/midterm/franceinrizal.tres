@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://dylasg6rxf84n"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_wo6ys"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_7las2"]
+
+[resource]
+script = ExtResource("2_7las2")
+title = "In the France"
+description = "In France and Germany, José Rizal studies ophthalmology under Louis de Wecker while pursuing literature to serve both his family and country. With the support of Maximo Viola, he completes and prepares to publish his novel exposing the struggles of Filipinos. In Berlin, Rizal bravely decides to print the book, knowing it could anger powerful forces but believing the truth must be told."
+steps = Array[String](["Go to Clinic", "Talk to Louis de Wecker"])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

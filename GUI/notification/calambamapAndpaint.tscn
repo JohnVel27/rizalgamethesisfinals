@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://dx5awr4un05fs"]
+
+[ext_resource type="Script" uid="uid://dk8bakavbt0de" path="res://GUI/notification/notification.gd" id="1_0nr0h"]
+[ext_resource type="Texture2D" uid="uid://nrm8adprg6qu" path="res://item/sprites/map.png" id="2_484ju"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="3_bulmv"]
+[ext_resource type="Texture2D" uid="uid://chrndvnr00f55" path="res://item/sprites/paintingspanish.png" id="3_elbci"]
+
+[sub_resource type="FontVariation" id="FontVariation_7cjes"]
+base_font = ExtResource("3_bulmv")
+
+[node name="calambamapandpaint" type="CanvasLayer" unique_id=2083378010]
+script = ExtResource("1_0nr0h")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1909789011]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -243.0
+offset_top = 112.0
+offset_right = 235.0
+offset_bottom = 435.0
+grow_horizontal = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=56896711]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -138.0
+offset_top = 150.0
+offset_right = -2.0
+offset_bottom = 277.0
+grow_horizontal = 2
+texture = ExtResource("2_484ju")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=685019619]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 24.0
+offset_top = 154.0
+offset_right = 160.0
+offset_bottom = 281.0
+grow_horizontal = 2
+texture = ExtResource("3_elbci")
+
+[node name="ItemName2" type="Label" parent="." unique_id=1432537191]
+anchors_preset = -1
+anchor_left = 0.492
+anchor_top = 0.157
+anchor_right = 0.492
+anchor_bottom = 0.157
+offset_left = -110.0
+offset_top = 154.4
+offset_right = 228.0
+offset_bottom = 203.4
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.741176)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_7cjes")
+theme_override_font_sizes/font_size = 30
+text = "You received an item"
+
+[node name="ItemName" type="Label" parent="." unique_id=577637924]
+anchors_preset = -1
+anchor_left = 0.492
+anchor_top = 0.157
+anchor_right = 0.492
+anchor_bottom = 0.157
+offset_left = -231.0
+offset_top = 203.4
+offset_right = 437.0
+offset_bottom = 252.4
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.741176)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_7cjes")
+theme_override_font_sizes/font_size = 28
+text = "Old Calamba map and  Rizal’s First Painting"

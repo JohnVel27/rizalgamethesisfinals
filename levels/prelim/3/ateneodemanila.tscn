@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://x17gyukrb882" path="res://characters/NPC/classmates/classmate3.tscn" id="9_ymlj8"]
 [ext_resource type="PackedScene" uid="uid://cobyvd1d16j27" path="res://characters/NPC/jesuitprofessors.tscn" id="10_p17w0"]
 [ext_resource type="PackedScene" uid="uid://tpar5p55q7uk" path="res://levels/sprites/arrow/arrow.tscn" id="14_8vvnd"]
+[ext_resource type="PackedScene" uid="uid://dx5awr4un05fs" path="res://GUI/notification/calambamapAndpaint.tscn" id="15_i4wa7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mm85i"]
 texture = ExtResource("1_hc4oc")
@@ -9356,3 +9357,5 @@ rotation = -0.025539637
 [node name="Arrow6" parent="." unique_id=1105679105 instance=ExtResource("14_8vvnd")]
 position = Vector2(860, 634)
 rotation = -3.16258
+
+[node name="calambamapandpaint" parent="." unique_id=2083378010 instance=ExtResource("15_i4wa7")]

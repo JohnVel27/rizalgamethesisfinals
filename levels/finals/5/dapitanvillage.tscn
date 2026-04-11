@@ -7,6 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://c3nvh131yhmgp" path="res://asset/sfx/bgm.mp3" id="5_8tmvm"]
 [ext_resource type="PackedScene" uid="uid://bana47hu7ydsu" path="res://GUI/instruction/fullsize.tscn" id="6_fsf2k"]
 [ext_resource type="PackedScene" uid="uid://c6uwktd5sd0bg" path="res://characters/carriage.tscn" id="8_mfauw"]
+[ext_resource type="PackedScene" uid="uid://ck2d5qp7jls4c" path="res://characters/player/sprites/oldrizal/adultrizal.tscn" id="9_kaag0"]
 [ext_resource type="PackedScene" uid="uid://bge5wggf77ret" path="res://levels/cursor.tscn" id="11_0gi4a"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3pew2"]
@@ -5185,3 +5186,6 @@ position = Vector2(-181, 518)
 
 [node name="Cursor" parent="." unique_id=1172424918 instance=ExtResource("11_0gi4a")]
 visible = false
+
+[node name="adultrizal" parent="." unique_id=1448676320 instance=ExtResource("9_kaag0")]
+position = Vector2(401, 304)

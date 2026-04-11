@@ -20,6 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://ftpgv5ih4oa" path="res://characters/buildings/franceschool.tscn" id="14_8o75s"]
 [ext_resource type="PackedScene" uid="uid://djhisukfxtj0m" path="res://levels/level_transition.tscn" id="17_4k3md"]
 [ext_resource type="AudioStream" uid="uid://tp8o0vogatrp" path="res://asset/sfx/Doorsfx.wav" id="18_8o75s"]
+[ext_resource type="PackedScene" uid="uid://tpar5p55q7uk" path="res://levels/sprites/arrow/arrow.tscn" id="21_6ras7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gn0iy"]
 texture = ExtResource("1_30fnv")
@@ -5151,3 +5152,10 @@ volume_db = -10.0
 
 [node name="Cursor" parent="." unique_id=701996352 instance=ExtResource("9_bre23")]
 visible = false
+
+[node name="Arrow" parent="." unique_id=120357931 instance=ExtResource("21_6ras7")]
+position = Vector2(468, 355)
+
+[node name="Arrow2" parent="." unique_id=922426760 instance=ExtResource("21_6ras7")]
+position = Vector2(462, 484)
+rotation = 3.0907373

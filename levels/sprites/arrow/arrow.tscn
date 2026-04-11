@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://tpar5p55q7uk"]
+[gd_scene format=3 uid="uid://tpar5p55q7uk"]
 
 [ext_resource type="Texture2D" uid="uid://bwdykjutxvocm" path="res://levels/sprites/arrow/Arrow_Down_red1.png" id="1_0rq51"]
 [ext_resource type="Script" uid="uid://dae0rgc8y5n6w" path="res://levels/sprites/arrow/arrow.gd" id="1_clnac"]
@@ -58,10 +58,12 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Arrow" type="CharacterBody2D"]
+[node name="Arrow" type="CharacterBody2D" unique_id=120357931]
 script = ExtResource("1_clnac")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1623927533]
+position = Vector2(1.000001, -14.000008)
+scale = Vector2(2.4062502, 1.8749999)
 sprite_frames = SubResource("SpriteFrames_87cr2")
 animation = &"animated"
 frame_progress = 0.361881

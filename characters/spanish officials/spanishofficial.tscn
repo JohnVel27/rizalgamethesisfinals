@@ -1,6 +1,8 @@
-[gd_scene load_steps=33 format=3 uid="uid://cgw0ppcuekm0p"]
+[gd_scene format=3 uid="uid://cgw0ppcuekm0p"]
 
+[ext_resource type="Script" uid="uid://bwrqmoe4uidpt" path="res://characters/spanish officials/spanishofficial.gd" id="1_14nmf"]
 [ext_resource type="Texture2D" uid="uid://0np7hpcvpvgv" path="res://characters/NPC/classmates/Classmate_rizal.png" id="1_dts8p"]
+[ext_resource type="AudioStream" uid="uid://35m7tgqqvlvb" path="res://asset/sfx/walking.wav" id="3_vxagn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1fw06"]
 atlas = ExtResource("1_dts8p")
@@ -247,31 +249,29 @@ radius = 21.3776
 [sub_resource type="CircleShape2D" id="CircleShape2D_6u5q5"]
 radius = 84.8999
 
-[node name="spanishofficial" type="CharacterBody2D"]
+[node name="spanishofficial" type="CharacterBody2D" unique_id=1151036885]
+script = ExtResource("1_14nmf")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1316885522]
 position = Vector2(1, -55)
 scale = Vector2(1.85156, 1.86765)
 sprite_frames = SubResource("SpriteFrames_034je")
 animation = &"carry_idle_down"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=305579731]
 position = Vector2(10, -25)
 shape = SubResource("CircleShape2D_8f1ks")
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." unique_id=68870251]
 
-[node name="chatdetection" type="Area2D" parent="."]
+[node name="chatdetection" type="Area2D" parent="." unique_id=824846840]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection" unique_id=1933984854]
 shape = SubResource("CircleShape2D_6u5q5")
 
-[node name="Label" type="Label" parent="."]
-offset_left = -40.0
-offset_top = -97.0
-offset_right = 80.0
-offset_bottom = -74.0
-text = "Spanish Official"
+[node name="walk_sfx" type="AudioStreamPlayer" parent="." unique_id=1027595593]
+stream = ExtResource("3_vxagn")
+volume_db = -20.0
 
 [connection signal="body_entered" from="chatdetection" to="." method="_on_chatdetection_body_entered"]
 [connection signal="body_exited" from="chatdetection" to="." method="_on_chatdetection_body_exited"]

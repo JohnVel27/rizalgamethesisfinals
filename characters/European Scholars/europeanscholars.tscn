@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://bha8s4ojuxsc2"]
+[gd_scene format=3 uid="uid://bha8s4ojuxsc2"]
 
 [ext_resource type="Texture2D" uid="uid://bcoboqbrmyw8r" path="res://characters/European Scholars/EU_NPC_1.png" id="1_ue4qn"]
 
@@ -247,31 +247,24 @@ radius = 21.3776
 [sub_resource type="CircleShape2D" id="CircleShape2D_6u5q5"]
 radius = 84.8999
 
-[node name="europeanscholar" type="CharacterBody2D"]
+[node name="europeanscholar" type="CharacterBody2D" unique_id=697051529]
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=971568838]
 position = Vector2(1, -55)
 scale = Vector2(1.85156, 1.86765)
 sprite_frames = SubResource("SpriteFrames_034je")
-animation = &"carry_idle_down"
+animation = &"carry_idle_up"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2123272539]
 position = Vector2(10, -25)
 shape = SubResource("CircleShape2D_8f1ks")
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." unique_id=1602622014]
 
-[node name="chatdetection" type="Area2D" parent="."]
+[node name="chatdetection" type="Area2D" parent="." unique_id=1759585295]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection" unique_id=1022331826]
 shape = SubResource("CircleShape2D_6u5q5")
-
-[node name="Label" type="Label" parent="."]
-offset_left = -46.0
-offset_top = -101.0
-offset_right = 90.0
-offset_bottom = -78.0
-text = "European Scholar"
 
 [connection signal="body_entered" from="chatdetection" to="." method="_on_chatdetection_body_entered"]
 [connection signal="body_exited" from="chatdetection" to="." method="_on_chatdetection_body_exited"]

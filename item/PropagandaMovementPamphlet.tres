@@ -4,4 +4,6 @@
 
 [resource]
 script = ExtResource("1_e8j6e")
+name = "Propaganda Movement Pamphlet"
+description = "A reformist publication calling for equality and representation. Rizal and fellow ilustrados used writing as their weapon against oppression."
 metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

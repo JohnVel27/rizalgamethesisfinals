@@ -59,6 +59,10 @@ func _ready() -> void:
 		start_opening_dialogue("5midtermnarrator1")
 	elif scene_path.ends_with("res://levels/midterm/5/brusselsappartmentrizal.tscn"):
 		start_opening_dialogue("5midtermnarrator2")
+	elif scene_path.ends_with("res://levels/finals/2/librariesinlondon.tscn"):
+		start_opening_dialogue("StudyingPhilippineHistory")
+	elif scene_path.ends_with("res://levels/finals/3/familyresidence.tscn"):
+		start_opening_dialogue("SecondHomecoming1")
 
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 	Dialogic.signal_event.connect(_on_dialogic_juancho_signal)
@@ -126,6 +130,8 @@ func _on_dialogue_finished() -> void:
 		await start_smooth_transition("res://transitionstoryboard/binan.tscn")
 	if current_opening_dialogue == "2maestrocruzrizal1":
 		await start_smooth_transition("res://levels/prelim/2/juanchocarrera.tscn")
+	if current_opening_dialogue == "StudyingPhilippineHistory":
+		await start_smooth_transition("res://levels/finals/3/familyresidence.tscn")
 	current_opening_dialogue = ""
 
 # =========================

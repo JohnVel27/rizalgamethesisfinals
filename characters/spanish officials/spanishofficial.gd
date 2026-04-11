@@ -4,7 +4,7 @@ extends CharacterBody2D
 @export var stopping_distance: float = 30.0 
 
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
-@onready var young_rizal = $"../classmate1"
+@onready var young_rizal = $"../paciano"
 @onready var walk_sfx: AudioStreamPlayer = $walk_sfx
 
 var tile_map: TileMap
@@ -118,10 +118,10 @@ func _on_dialogue_started() -> void:
 func _on_dialogue_finished() -> void:
 	is_dialogue_active = false
 	
-	QuestManager.update_quest("Bullies at the school", "Talk to your classmate and confront their grievances towards you", true)
+	
 	
 	# I-check kung ang huling tinakbong dialogue ay ang brawl scene
-	if last_timeline_played == "firstbrawl2":
+	if last_timeline_played == "secondhomecoming2":
 		start_smooth_transition()
 
 func start_smooth_transition() -> void:
@@ -140,9 +140,14 @@ func start_smooth_transition() -> void:
 	else:
 		tree.change_scene_to_file(target_scene)
 
-func _on_chatdetectionjustiano_body_entered(body: Node2D) -> void:
+
+	
+	
+		
+
+
+func _on_chatdetection_body_entered(body: Node2D) -> void:
 	
 	if body == young_rizal and not is_dialogue_active:
-		last_timeline_played = "firstbrawl2" 
-		Dialogic.start("firstbrawl2")
-		
+		last_timeline_played = "secondhomecoming2" 
+		Dialogic.start("secondhomecoming2")

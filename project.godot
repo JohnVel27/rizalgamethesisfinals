@@ -27,7 +27,7 @@ PlayerManager="*res://00_globals/global_player_manager.gd"
 InventoryMenu="*res://GUI/inventory/inventory_menu.tscn"
 QuestMenu="*res://GUI/quest/quest_menu.tscn"
 QuestManager="*res://quest/scripts/global_quest_manager.gd"
-Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
@@ -50,14 +50,18 @@ directories/dch_directory={
 "Teodora": "res://dialogue/characters/Teodora.dch",
 "Villagers": "res://dialogue/characters/Villagers.dch",
 "classmates": "res://dialogue/characters/classmates.dch",
+"domingofranco": "res://dialogue/characters/domingofranco.dch",
 "dominicanfriars": "res://dialogue/characters/dominicanfriars.dch",
 "european scholar": "res://dialogue/characters/european scholar.dch",
 "fathersanchez": "res://dialogue/characters/fathersanchez.dch",
+"filipinoscholars": "res://dialogue/characters/filipinoscholars.dch",
 "francisco": "res://dialogue/characters/francisco.dch",
+"josephinebracken": "res://dialogue/characters/josephinebracken.dch",
 "juancho": "res://dialogue/characters/juancho.dch",
 "justinianotop": "res://dialogue/characters/justinianotop.dch",
 "passenger": "res://dialogue/characters/passenger.dch",
-"students": "res://dialogue/characters/students.dch"
+"students": "res://dialogue/characters/students.dch",
+"townsman": "res://dialogue/characters/townsman.dch"
 }
 directories/dtl_directory={
 "1": "res://dialogue/timeline/midterm/1/1.dtl",
@@ -79,7 +83,13 @@ directories/dtl_directory={
 "5/1": "res://dialogue/timeline/midterm/5/1.dtl",
 "5midtermnarrator1": "res://dialogue/timeline/midterm/5/5midtermnarrator1.dtl",
 "5midtermnarrator2": "res://dialogue/timeline/midterm/5/5midtermnarrator2.dtl",
+"ExileinDapitan1": "res://dialogue/timeline/finals/5/ExileinDapitan1.dtl",
+"FoundingofLaLigaFilipina": "res://dialogue/timeline/finals/4/FoundingofLaLigaFilipina.dtl",
 "Narrator-calamba": "res://dialogue/timeline/prelim/1/Narrator-calamba.dtl",
+"ReformistIdeasinEurope1": "res://dialogue/timeline/finals/1/ReformistIdeasinEurope1.dtl",
+"SecondHomecoming1": "res://dialogue/timeline/finals/3/SecondHomecoming1.dtl",
+"StudyingPhilippineHistory": "res://dialogue/timeline/finals/2/StudyingPhilippineHistory.dtl",
+"TrialandMartyrdom1": "res://dialogue/timeline/finals/6/TrialandMartyrdom1.dtl",
 "brawlmission": "res://dialogue/timeline/prelim/2/brawlmission.dtl",
 "firstbrawl": "res://dialogue/timeline/prelim/2/firstbrawl.dtl",
 "firstbrawl2": "res://dialogue/timeline/prelim/2/firstbrawl2.dtl",
@@ -92,6 +102,7 @@ directories/dtl_directory={
 "remind_teodora": "res://dialogue/timeline/prelim/1/remind_teodora.dtl",
 "rizalfranciscotalk1": "res://dialogue/timeline/prelim/1/rizalfranciscotalk1.dtl",
 "rizalteodoratalk1": "res://dialogue/timeline/prelim/1/rizalteodoratalk1.dtl",
+"secondhomecoming2": "res://dialogue/timeline/finals/3/secondhomecoming2.dtl",
 "storyofmoth": "res://dialogue/timeline/prelim/1/storyofmoth.dtl",
 "typewritter": "res://dialogue/timeline/midterm/2/typewritter.dtl"
 }

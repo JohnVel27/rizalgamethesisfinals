@@ -63,6 +63,8 @@ func _ready() -> void:
 		start_opening_dialogue("StudyingPhilippineHistory")
 	elif scene_path.ends_with("res://levels/finals/3/familyresidence.tscn"):
 		start_opening_dialogue("SecondHomecoming1")
+	elif scene_path.ends_with("res://levels/finals/4/manilameetinghouses.tscn"):
+		start_opening_dialogue("FoundingofLaLigaFilipina")
 
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 	Dialogic.signal_event.connect(_on_dialogic_juancho_signal)

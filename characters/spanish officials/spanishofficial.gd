@@ -126,7 +126,7 @@ func _on_dialogue_finished() -> void:
 
 func start_smooth_transition() -> void:
 	var tree = get_tree()
-	var target_scene = "res://levels/prelim/2/juanchocarrera.tscn"
+	var target_scene = "res://levels/finals/4/manilameetinghouses.tscn"
 	
 	# Re-enable player physics kung sakaling naka-disable
 	var player = tree.current_scene.find_child("youngrizal", true, false)

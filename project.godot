@@ -19,6 +19,10 @@ run/main_scene="uid://m6axqlk1c0rq"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout="uid://df74kkkhqptki"
+
 [autoload]
 
 Transitionlayer="*res://levels/Transitionlayer.tscn"
@@ -27,7 +31,7 @@ PlayerManager="*res://00_globals/global_player_manager.gd"
 InventoryMenu="*res://GUI/inventory/inventory_menu.tscn"
 QuestMenu="*res://GUI/quest/quest_menu.tscn"
 QuestManager="*res://quest/scripts/global_quest_manager.gd"
-Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+Dialogic="*uid://ds2q0uclmolvu"
 
 [dialogic]
 
@@ -157,10 +161,7 @@ audio/channel_defaults={
 
 [display]
 
-window/size/viewport_width=1000
-window/size/viewport_height=800
-window/size/window_width_override=1600
-window/size/window_height_override=1000
+window/stretch/mode="canvas_items"
 
 [editor_plugins]
 

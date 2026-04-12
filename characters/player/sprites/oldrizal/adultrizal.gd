@@ -23,6 +23,7 @@ func _ready() -> void:
 		Dialogic.timeline_ended.connect(_on_dialogue_finished)
 
 	var scene_path = get_tree().current_scene.scene_file_path
+	
 
 	# Scene-based dialogue triggers
 	if scene_path.ends_with("rizalhome.tscn"):

@@ -56,6 +56,12 @@ func check_location_completion() -> void:
 		
 	if current_scene_path == "res://levels/prelim/4/uhallway.tscn":
 		update_quest("Third Education at University Of Santo Thomas", "Enter UST", true)
+	
+	if current_scene_path == "res://levels/midterm/2/medicalclinic.tscn":
+		update_quest("In the France", "Go to Clinic", false)
+		
+	if current_scene_path == "res://levels/midterm/5/brusselsappartmentrizal.tscn":
+		update_quest("Rizal in Brussels", "Go to Rizal Brussel Apartment", false)
 
 func gather_quest_data() -> void:
 	quests.clear()

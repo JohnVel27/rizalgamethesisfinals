@@ -18,6 +18,9 @@ func _ready():
 	Dialogic.timeline_ended.connect(_on_timeline_ended)
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 	print("NPC System: Ready.")
+	
+	if has_node("/root/QuestManager"):
+		QuestManager.check_location_completion()
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("interact") and is_near_npc:

@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("1_bjhg4")
-name = "Medical Instruments (Ophthalmology Tools)"
+name = "Ophthalmology Tools"
 description = "Precision tools used during Rizal’s training in Europe. Inspired by his mother’s failing eyesight, he pursued medicine not just as a profession, but as a mission. "
 texture = ExtResource("2_1h0dd")
 metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

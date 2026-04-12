@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://c45kikv6nn0an"]
+[gd_scene format=3 uid="uid://c45kikv6nn0an"]
 
 [ext_resource type="Script" uid="uid://1jc0qcmk7rk7" path="res://GUI/quest/scripts/quest_menu.gd" id="1_7f168"]
 [ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_mnqp4"]
@@ -14,10 +14,10 @@ base_font = ExtResource("2_mnqp4")
 [sub_resource type="FontVariation" id="FontVariation_hujse"]
 base_font = ExtResource("2_mnqp4")
 
-[node name="QuestMenu" type="CanvasLayer"]
+[node name="QuestMenu" type="CanvasLayer" unique_id=460696310]
 script = ExtResource("1_7f168")
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=2142345855]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -29,7 +29,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_vertical = 4
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." unique_id=47410378]
 offset_left = 414.0
 offset_top = 44.0
 offset_right = 879.0
@@ -41,7 +41,7 @@ theme_override_fonts/font = SubResource("FontVariation_3cb3n")
 theme_override_font_sizes/font_size = 80
 text = "QUEST"
 
-[node name="ScrollContainer" type="ScrollContainer" parent="."]
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=758753190]
 offset_left = 37.0
 offset_top = 184.0
 offset_right = 567.0
@@ -50,41 +50,44 @@ follow_focus = true
 scroll_vertical_custom_step = 100.0
 horizontal_scroll_mode = 0
 
-[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer" unique_id=1909501697]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_top = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer" unique_id=2043485891]
 layout_mode = 2
 theme_override_constants/separation = 30
 
-[node name="questitem" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+[node name="questitem" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=758654022 instance=ExtResource("2_qb3tv")]
 layout_mode = 2
 
-[node name="questitem2" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+[node name="questitem2" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=1497874814 instance=ExtResource("2_qb3tv")]
 layout_mode = 2
 
-[node name="questitem3" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+[node name="questitem3" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=1104201457 instance=ExtResource("2_qb3tv")]
 layout_mode = 2
 
-[node name="questitem4" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+[node name="questitem4" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=1868296087 instance=ExtResource("2_qb3tv")]
 layout_mode = 2
 
-[node name="questitem5" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+[node name="questitem5" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=381149211 instance=ExtResource("2_qb3tv")]
 layout_mode = 2
 
-[node name="questitem6" parent="ScrollContainer/MarginContainer/VBoxContainer" instance=ExtResource("2_qb3tv")]
+[node name="questitem6" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=878464626 instance=ExtResource("2_qb3tv")]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="questitem7" parent="ScrollContainer/MarginContainer/VBoxContainer" unique_id=842440948 instance=ExtResource("2_qb3tv")]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=654583145]
 offset_left = 601.0
 offset_top = 148.0
 offset_right = 1128.0
 offset_bottom = 376.0
 
-[node name="titlelabel" type="Label" parent="VBoxContainer"]
+[node name="titlelabel" type="Label" parent="VBoxContainer" unique_id=1780365613]
 custom_minimum_size = Vector2(200, 80)
 layout_mode = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
@@ -94,7 +97,7 @@ theme_override_font_sizes/font_size = 75
 text = "quest title"
 autowrap_mode = 2
 
-[node name="descriptionlabel" type="Label" parent="VBoxContainer"]
+[node name="descriptionlabel" type="Label" parent="VBoxContainer" unique_id=122845191]
 custom_minimum_size = Vector2(200, 80)
 layout_mode = 2
 theme_override_fonts/font = SubResource("FontVariation_hujse")
@@ -102,5 +105,5 @@ theme_override_font_sizes/font_size = 50
 text = "quest description"
 autowrap_mode = 2
 
-[node name="queststepitem" parent="VBoxContainer" instance=ExtResource("3_7tqwi")]
+[node name="queststepitem" parent="VBoxContainer" unique_id=824252707 instance=ExtResource("3_7tqwi")]
 layout_mode = 2

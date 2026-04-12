@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://drfrc5lni68gn"]
 
 [ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_bjhg4"]
+[ext_resource type="Texture2D" uid="uid://dax20aiaesjf" path="res://item/sprites/markedexaminationpaper.png" id="2_1h0dd"]
 
 [resource]
 script = ExtResource("1_bjhg4")
 name = "Medical Instruments (Ophthalmology Tools)"
 description = "Precision tools used during Rizal’s training in Europe. Inspired by his mother’s failing eyesight, he pursued medicine not just as a profession, but as a mission. "
+texture = ExtResource("2_1h0dd")
 metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

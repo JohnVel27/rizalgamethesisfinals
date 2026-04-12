@@ -1,8 +1,8 @@
 extends CanvasLayer
 
 @onready var intro_label = $calambaintroduction
-@export var typing_speed: float = 5.0  
-@export var delay_before_exit: float = 3.0 
+@export var typing_speed: float = 2.0  
+@export var delay_before_exit: float = 2.0 
 
 func _ready() -> void:
 	

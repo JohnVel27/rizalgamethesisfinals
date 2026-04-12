@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://df77b4c3aen8v"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_cth0n"]
+[ext_resource type="Resource" uid="uid://cxibsfu180iod" path="res://item/midterm/PropagandaMovementPamphlet.tres" id="2_0mjuk"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_6kt72"]
+
+[sub_resource type="Resource" id="Resource_ejw4m"]
+script = ExtResource("1_cth0n")
+item = ExtResource("2_0mjuk")
+metadata/_custom_type_script = "uid://7ktwwmvwtcq0"
+
+[resource]
+script = ExtResource("2_6kt72")
+title = "Rizal in Brussels"
+description = "In Brussels, José Rizal writes a darker novel exposing Filipino struggles and remains determined to reveal injustice despite Spanish pressure."
+steps = Array[String](["Go to Brussel Apartment", "Talk to filipino reformist"])
+reward_items = Array[ExtResource("1_cth0n")]([SubResource("Resource_ejw4m")])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cxibsfu180iod"]
 
 [ext_resource type="Script" uid="uid://c04jwa6ijx6sq" path="res://item/scripts/item_data.gd" id="1_e8j6e"]
+[ext_resource type="Texture2D" uid="uid://dax20aiaesjf" path="res://item/sprites/markedexaminationpaper.png" id="2_jfyml"]
 
 [resource]
 script = ExtResource("1_e8j6e")
 name = "Propaganda Movement Pamphlet"
 description = "A reformist publication calling for equality and representation. Rizal and fellow ilustrados used writing as their weapon against oppression."
+texture = ExtResource("2_jfyml")
 metadata/_custom_type_script = "uid://c04jwa6ijx6sq"

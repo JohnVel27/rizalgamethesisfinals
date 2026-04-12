@@ -6,6 +6,6 @@
 [resource]
 script = ExtResource("2_ekmd6")
 title = "First Homecoming in the Philippines (1887)"
-description = "After returning to the Philippines in 1887, José Rizal reunites with his family, including Teodora Alonso and Paciano Rizal, in Calamba. He uses his medical skills to help villagers, but his return also draws the attention of Spanish authorities and friars because of his controversial book. Despite growing danger and surveillance, Rizal remains firm in his belief that truth and reform must prevail."
+description = "In 1887, José Rizal returns to Calamba, helps locals, and faces rising danger from authorities."
 steps = Array[String](["Talk to teodora"])
 metadata/_custom_type_script = "uid://datfl3b15axlx"

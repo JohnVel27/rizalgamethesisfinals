@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dmerqn12fp10"]
+
+[ext_resource type="Texture2D" uid="uid://dpisx7udwj14s" path="res://levels/sprites/environment/NIPPAHUT.png" id="1_fety7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_081ud"]
+size = Vector2(295, 343)
+
+[node name="Nippa" type="CharacterBody2D" unique_id=1125916953]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1590878540]
+position = Vector2(46.5, -35.5)
+shape = SubResource("RectangleShape2D_081ud")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1396080091]
+position = Vector2(45.500004, -3.0000076)
+scale = Vector2(1.9133332, 1.654321)
+texture = ExtResource("1_fety7")

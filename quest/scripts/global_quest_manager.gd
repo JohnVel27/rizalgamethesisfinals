@@ -16,15 +16,25 @@ var all_quests: Dictionary = {
 		{ "title": "Life at Biñan Laguna", "is_complete": false, "completed_steps": [] },
 		{ "title": "Bullies at the school", "is_complete": false, "completed_steps": [] },
 		{ "title": "Secondary Education at Ateneo", "is_complete": false, "completed_steps": [] },
-		{ "title": "Third Education at University Of Santo Thomas", "is_complete": false, "completed_steps": [] }
+		{ "title": "Third Education at University Of Santo Thomas", "is_complete": false, "completed_steps": [] },
+		
 	],
-	"midterm": [],
+	"midterm": [
+		{ "title": "First Sojourn to Europe", "is_complete": false, "completed_steps": [] },
+		{ "title": "In the France", "is_complete": false, "completed_steps": [] },
+		{ "title": "First Homecoming in the Philippines (1887)", "is_complete": false, "completed_steps": [] },
+		{ "title": "Second Sojourn to Europe (1888)", "is_complete": false, "completed_steps": [] },
+		{ "title": "Rizal in Brussels", "is_complete": false, "completed_steps": [] }
+	],
 	"final": []
 }
 
 func _ready() -> void:
-
-	current_quests = all_quests["prelim"].duplicate(true)
+	current_quests = []
+	
+	for category in ["prelim", "midterm"]:
+		current_quests += all_quests[category].duplicate(true)
+	
 	gather_quest_data()
 	
 	

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://dylasg6rxf84n"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_q57w6"]
+[ext_resource type="Resource" uid="uid://drfrc5lni68gn" path="res://item/midterm/MedicalInstruments.tres" id="2_nqhk7"]
+[ext_resource type="Resource" uid="uid://bw4l0568s5s67" path="res://item/midterm/PrintingPressProofSheets.tres" id="3_muy4q"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="4_c4v2t"]
+
+[sub_resource type="Resource" id="Resource_shwnk"]
+script = ExtResource("1_q57w6")
+item = ExtResource("2_nqhk7")
+metadata/_custom_type_script = "uid://7ktwwmvwtcq0"
+
+[sub_resource type="Resource" id="Resource_y4ugo"]
+script = ExtResource("1_q57w6")
+item = ExtResource("3_muy4q")
+metadata/_custom_type_script = "uid://7ktwwmvwtcq0"
+
+[resource]
+script = ExtResource("4_c4v2t")
+title = "In the France"
+description = "In Europe, José Rizal, with help from Maximo Viola, studies under Louis de Wecker and prepares  to publish a novel exposing Filipino struggles."
+steps = Array[String](["Go to Clinic"])
+reward_items = Array[ExtResource("1_q57w6")]([SubResource("Resource_shwnk"), SubResource("Resource_y4ugo")])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

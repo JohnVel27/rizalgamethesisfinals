@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://bge5wggf77ret" path="res://levels/cursor.tscn" id="10_dgn8q"]
 [ext_resource type="PackedScene" uid="uid://dias0waijlwni" path="res://characters/typewritter/typewritter.tscn" id="11_p35ok"]
 [ext_resource type="PackedScene" uid="uid://ck2d5qp7jls4c" path="res://characters/player/sprites/oldrizal/adultrizal.tscn" id="12_u66sg"]
+[ext_resource type="Texture2D" uid="uid://bvr1vohaxghij" path="res://item/sprites/light_ball_512.png" id="15_863we"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_863we"]
 texture = ExtResource("2_tdqsl")
@@ -33779,4 +33780,11 @@ position = Vector2(829, 474)
 position = Vector2(751, 108)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=273272290]
-color = Color(0.6190053, 0.7305666, 0.8857026, 1)
+color = Color(0.48478854, 0.6829768, 0.87037295, 1)
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=372300431]
+visible = false
+position = Vector2(777, 88)
+color = Color(0.96611124, 0.67450017, 0.38165173, 1)
+energy = 0.7
+texture = ExtResource("15_863we")

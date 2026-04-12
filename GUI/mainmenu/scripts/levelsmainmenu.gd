@@ -6,6 +6,9 @@ func _on_prelim_pressed() -> void:
 	get_tree().change_scene_to_file("res://transitionstoryboard/calamba.tscn")
 
 
-func _on_prelim_3_pressed() -> void:
+func _on_midterm_pressed() -> void:
 	get_tree().change_scene_to_file("res://levels/midterm/1/1.tscn")
+	
+func _on_final_pressed() -> void:
+	pass
 	

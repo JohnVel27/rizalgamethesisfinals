@@ -2,35 +2,64 @@
 
 [ext_resource type="Script" uid="uid://c42vehfgbtvy2" path="res://GUI/mainmenu/scripts/main_menu.gd" id="1_3l01i"]
 [ext_resource type="Texture2D" uid="uid://bk34xgyvf0717" path="res://GUI/mainmenu/main_menu.png" id="2_3l01i"]
-[ext_resource type="Texture2D" uid="uid://d3ktvlix8l8uo" path="res://GUI/mainmenu/button.png" id="3_itp4o"]
+[ext_resource type="Texture2D" uid="uid://b1m25vggl4cfb" path="res://GUI/mainmenu/Button1.png" id="3_vs7pv"]
 [ext_resource type="AudioStream" uid="uid://c4yha5jjbu6n6" path="res://asset/sfx/bgm_mm.mp3" id="4_x5j3j"]
 [ext_resource type="Script" uid="uid://dwlbtnarau6rp" path="res://GUI/mainmenu/scripts/audio_control.gd" id="5_7orac"]
 [ext_resource type="Script" uid="uid://ix85elmdur14" path="res://GUI/mainmenu/scripts/window_control.gd" id="6_vs7pv"]
+[ext_resource type="Texture2D" uid="uid://brto78qe50xmc" path="res://GUI/mainmenu/speaker_icon.png" id="7_cqg8a"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3l01i"]
 texture = ExtResource("2_3l01i")
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_x5j3j"]
-atlas = ExtResource("3_itp4o")
-region = Rect2(50.1025, 67.3077, 537.846, 377.922)
+[sub_resource type="FontFile" id="FontFile_cqg8a"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/59/0/ascent = 0.0
+cache/0/59/0/descent = 0.0
+cache/0/59/0/underline_position = 0.0
+cache/0/59/0/underline_thickness = 0.0
+cache/0/59/0/scale = 1.0
+cache/0/50/0/ascent = 0.0
+cache/0/50/0/descent = 0.0
+cache/0/50/0/underline_position = 0.0
+cache/0/50/0/underline_thickness = 0.0
+cache/0/50/0/scale = 1.0
+cache/0/55/0/ascent = 0.0
+cache/0/55/0/descent = 0.0
+cache/0/55/0/underline_position = 0.0
+cache/0/55/0/underline_thickness = 0.0
+cache/0/55/0/scale = 1.0
+cache/0/40/0/ascent = 0.0
+cache/0/40/0/descent = 0.0
+cache/0/40/0/underline_position = 0.0
+cache/0/40/0/underline_thickness = 0.0
+cache/0/40/0/scale = 1.0
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_7orac"]
-atlas = ExtResource("3_itp4o")
-region = Rect2(600.42, 63.9406, 544.041, 395.887)
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_80sji"]
+content_margin_bottom = 30.0
+texture = ExtResource("3_vs7pv")
+region_rect = Rect2(16, 22, 80, 26)
 
-[sub_resource type="Gradient" id="Gradient_x5j3j"]
-offsets = PackedFloat32Array(0, 0.0064935065)
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vs7pv"]
+content_margin_top = 10.0
+texture = ExtResource("3_vs7pv")
+region_rect = Rect2(16, 58, 80, 22)
 
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_7orac"]
-gradient = SubResource("Gradient_x5j3j")
-width = 264
-
-[sub_resource type="Gradient" id="Gradient_7orac"]
-offsets = PackedFloat32Array(0, 0.012987013)
-
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_vs7pv"]
-gradient = SubResource("Gradient_7orac")
-width = 256
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cqg8a"]
+texture = ExtResource("3_vs7pv")
+region_rect = Rect2(16, 58, 80, 22)
 
 [sub_resource type="StyleBoxLine" id="StyleBoxLine_x5j3j"]
 color = Color(1, 1, 1, 1)
@@ -57,37 +86,50 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_3l01i")
+metadata/_edit_lock_ = true
 
 [node name="MainButton" type="VBoxContainer" parent="." unique_id=1178316957]
 layout_mode = 1
-anchors_preset = 8
+anchors_preset = 7
 anchor_left = 0.5
-anchor_top = 0.5
+anchor_top = 1.0
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -268.5
-offset_top = -290.5
-offset_right = 268.5
-offset_bottom = 407.0
+anchor_bottom = 1.0
+offset_left = -194.0
+offset_top = -444.0
+offset_right = 227.0
+offset_bottom = -12.0
 grow_horizontal = 2
-grow_vertical = 2
+grow_vertical = 0
 
-[node name="Button" type="TextureButton" parent="MainButton" unique_id=1759712827]
+[node name="Button" type="Button" parent="MainButton" unique_id=2008320243]
 layout_mode = 2
-texture_normal = SubResource("AtlasTexture_x5j3j")
-texture_hover = SubResource("AtlasTexture_7orac")
+theme_override_fonts/font = SubResource("FontFile_cqg8a")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_80sji")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vs7pv")
+text = "Play"
 
-[node name="Button2" type="TextureButton" parent="MainButton" unique_id=685166235]
+[node name="Button2" type="Button" parent="MainButton" unique_id=179432034]
 layout_mode = 2
-texture_normal = SubResource("GradientTexture2D_7orac")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_80sji")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vs7pv")
+text = "Options"
 
-[node name="Button3" type="TextureButton" parent="MainButton" unique_id=735606535]
+[node name="Button3" type="Button" parent="MainButton" unique_id=454229968]
 layout_mode = 2
-texture_normal = SubResource("GradientTexture2D_7orac")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_80sji")
+theme_override_styles/hover = SubResource("StyleBoxTexture_cqg8a")
+text = "How to Play"
 
-[node name="Button4" type="TextureButton" parent="MainButton" unique_id=356667069]
+[node name="Button4" type="Button" parent="MainButton" unique_id=302683438]
 layout_mode = 2
-texture_normal = SubResource("GradientTexture2D_7orac")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_80sji")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vs7pv")
+text = "Exit"
 
 [node name="bgm" type="AudioStreamPlayer" parent="." unique_id=735130235]
 stream = ExtResource("4_x5j3j")
@@ -96,6 +138,7 @@ autoplay = true
 bus = &"Music"
 
 [node name="Settings" type="Panel" parent="." unique_id=1488878864]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -120,23 +163,27 @@ text = "Settings"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="back" type="TextureButton" parent="Settings" unique_id=1716716249]
+[node name="back" type="Button" parent="Settings" unique_id=1220001682]
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -128.0
-offset_top = -64.0
-offset_right = 128.0
+offset_left = -126.0
+offset_top = -79.0
+offset_right = 130.0
+offset_bottom = -15.0
 grow_horizontal = 2
 grow_vertical = 0
-texture_normal = SubResource("GradientTexture2D_vs7pv")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxTexture_80sji")
+theme_override_styles/hover = SubResource("StyleBoxTexture_vs7pv")
+text = "Back"
 
 [node name="AudioControl" type="HSlider" parent="Settings" unique_id=537640561]
 layout_mode = 0
-offset_left = 104.0
+offset_left = 133.0
 offset_top = 98.0
 offset_right = 504.0
 offset_bottom = 161.0
@@ -151,13 +198,18 @@ audio_bus_name = "Music"
 
 [node name="WindowControl" type="CheckButton" parent="Settings" unique_id=941026980]
 layout_mode = 0
-offset_left = 96.0
+offset_left = 75.0
 offset_top = 150.0
 offset_right = 506.0
 offset_bottom = 243.0
 theme_override_font_sizes/font_size = 26
 text = "Fullscreen"
 script = ExtResource("6_vs7pv")
+
+[node name="SpeakerIcon" type="Sprite2D" parent="Settings" unique_id=862515163]
+position = Vector2(102, 130)
+scale = Vector2(0.076171875, 0.068359375)
+texture = ExtResource("7_cqg8a")
 
 [connection signal="pressed" from="MainButton/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="MainButton/Button2" to="." method="_on_settings_pressed"]

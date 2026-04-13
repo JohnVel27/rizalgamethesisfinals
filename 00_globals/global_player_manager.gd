@@ -2,6 +2,7 @@ extends Node
 
 # This is just the "blueprint"
 const PLAYER_SCENE = preload("res://characters/player/youngrizal.tscn")
+const PLAYER_SCENE1 = preload("res://characters/player/sprites/oldrizal/adultrizal.tscn")
 const INVENTORY_DATA : InventoryData = preload("res://GUI/inventory/player_inventory.tres")
 
 

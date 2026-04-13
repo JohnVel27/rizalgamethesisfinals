@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://bxp81jonnmjt6"]
+[gd_scene format=3 uid="uid://bxp81jonnmjt6"]
 
 [ext_resource type="Script" uid="uid://q7wws7i1evgn" path="res://00_globals/globaltransitionlayer.gd" id="1_mlf64"]
 
@@ -56,10 +56,10 @@ _data = {
 &"fade_to_normal": SubResource("Animation_nkj3j")
 }
 
-[node name="Transitionlayer" type="CanvasLayer"]
+[node name="Transitionlayer" type="CanvasLayer" unique_id=353825869]
 script = ExtResource("1_mlf64")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=392815915]
 modulate = Color(1, 1, 1, 0)
 anchors_preset = 15
 anchor_right = 1.0
@@ -68,7 +68,5 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.051971, 0.051971, 0.051971, 1)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-&"": SubResource("AnimationLibrary_b30vw")
-}
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=676870583]
+libraries/ = SubResource("AnimationLibrary_b30vw")

@@ -14,41 +14,41 @@ Rizal: Thank you, my friend. This book must reach the world.
 Rizal: Then let the truth be printed.
 Narrator: minigame quiz\: this is a multiple-choice question.
 label louisminigames
-Narrator: 1 +1
-- 1
+Narrator: In what year did Rizal first travel to Europe to continue his studies?
+- 1877
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigames
-- 2
+- 1882
 	Narrator: Correct !!
-- 3
+- 1887
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigames
-- 4
+- 1892
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigames
 label louisminigames1
-Narrator: 2+2
-- 4
+Narrator: What medical field did Rizal specialize in while in Europe?
+- Ophthalmology
 	Narrator: Correct !!
-- 5
+- Pediatrics
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigames1
-- 6
+- Cardiology
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigames1
-- 7
+- Surgery
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigames1
 label louisminigame2
-Narrator: 3+3
-- 1
+Narrator: Where did Rizal stay while studying under Louis de Wecker?
+- Madrid
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigame2
-- 2
+- Berlin
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigame2
-- 6
+- Paris
 	Narrator: Correct !!
-- 3
+- London
 	Narrator: Your answer is wrong. Ill repeat the question.
 	jump 2/1/louisminigame2

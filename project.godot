@@ -90,6 +90,7 @@ directories/dtl_directory={
 "SecondHomecoming1": "res://dialogue/timeline/finals/3/SecondHomecoming1.dtl",
 "StudyingPhilippineHistory": "res://dialogue/timeline/finals/2/StudyingPhilippineHistory.dtl",
 "TrialandMartyrdom1": "res://dialogue/timeline/finals/6/TrialandMartyrdom1.dtl",
+"boatmidterm1": "res://dialogue/timeline/midterm/1/boatmidterm1.dtl",
 "brawlmission": "res://dialogue/timeline/prelim/2/brawlmission.dtl",
 "firstbrawl": "res://dialogue/timeline/prelim/2/firstbrawl.dtl",
 "firstbrawl2": "res://dialogue/timeline/prelim/2/firstbrawl2.dtl",

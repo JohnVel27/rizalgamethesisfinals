@@ -19,6 +19,6 @@ metadata/_custom_type_script = "uid://7ktwwmvwtcq0"
 script = ExtResource("4_c4v2t")
 title = "In the France"
 description = "In Europe, José Rizal, with help from Maximo Viola, studies under Louis de Wecker and prepares  to publish a novel exposing Filipino struggles."
-steps = Array[String](["Go to Clinic", "Talk to Dr. Louis de Wecker"])
+steps = Array[String](["Go to Clinic", "Talk to Dr. Louis de Wecker", "Interact to the table"])
 reward_items = Array[ExtResource("1_q57w6")]([SubResource("Resource_shwnk"), SubResource("Resource_y4ugo")])
 metadata/_custom_type_script = "uid://datfl3b15axlx"

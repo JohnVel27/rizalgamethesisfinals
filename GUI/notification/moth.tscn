@@ -8,6 +8,7 @@
 base_font = ExtResource("2_4goea")
 
 [node name="Moth" type="CanvasLayer" unique_id=2083378010]
+visible = false
 script = ExtResource("1_4goea")
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=1909789011]

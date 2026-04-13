@@ -1,4 +1,4 @@
-[gd_scene format=4 uid="uid://hy54bugm176t"]
+[gd_scene format=4 uid="uid://ctvx845pemrrs"]
 
 [ext_resource type="Texture2D" uid="uid://3isw37f77rtq" path="res://levels/sprites/environment/Interiors_tilesets.png" id="1_oy471"]
 [ext_resource type="Texture2D" uid="uid://b331mewoblqgs" path="res://levels/sprites/environment/Pier_asset.png" id="2_ukita"]
@@ -9,6 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://bbkawb3d4xlqm" path="res://levels/sprites/environment/windows_and_doors2.png" id="7_ja8s1"]
 [ext_resource type="AudioStream" uid="uid://c3nvh131yhmgp" path="res://asset/sfx/bgm.mp3" id="8_5j3b1"]
 [ext_resource type="PackedScene" uid="uid://drslyb2put8hu" path="res://characters/player/oldrizal.tscn" id="9_s31jt"]
+[ext_resource type="PackedScene" uid="uid://bqo62mvt2gen5" path="res://characters/European Scholars/europeanscholars2.tscn" id="11_tf0wh"]
+[ext_resource type="PackedScene" uid="uid://behbbxblcj3ov" path="res://GUI/notification/midterm/traveltrunktoeurope.tscn" id="12_cyinj"]
+[ext_resource type="PackedScene" uid="uid://bha8s4ojuxsc2" path="res://characters/European Scholars/europeanscholars.tscn" id="12_yipid"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cb7a6"]
 texture = ExtResource("1_oy471")
@@ -22159,3 +22162,23 @@ autoplay = true
 
 [node name="oldrizal" parent="." unique_id=1751504418 instance=ExtResource("9_s31jt")]
 position = Vector2(482, 328)
+
+[node name="europeanscholar" parent="." unique_id=697051529 instance=ExtResource("11_tf0wh")]
+position = Vector2(63, 474)
+
+[node name="europeanscholar2" parent="." unique_id=439647626 instance=ExtResource("11_tf0wh")]
+position = Vector2(1139, 302)
+
+[node name="europeanscholar3" parent="." unique_id=1153783295 instance=ExtResource("12_yipid")]
+position = Vector2(352, 191)
+
+[node name="europeanscholar4" parent="." unique_id=2128322126 instance=ExtResource("11_tf0wh")]
+position = Vector2(809, 357)
+
+[node name="europeanscholar5" parent="." unique_id=242066838 instance=ExtResource("12_yipid")]
+position = Vector2(1164, 199)
+
+[node name="europeanscholar6" parent="." unique_id=552767081 instance=ExtResource("12_yipid")]
+position = Vector2(934, 195)
+
+[node name="traveltrunktoeurope" parent="." unique_id=2083378010 instance=ExtResource("12_cyinj")]

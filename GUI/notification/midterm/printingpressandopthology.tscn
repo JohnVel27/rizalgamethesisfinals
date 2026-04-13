@@ -1,15 +1,16 @@
-[gd_scene format=3 uid="uid://dx5awr4un05fs"]
+[gd_scene format=3 uid="uid://bkaec0cfcqj11"]
 
-[ext_resource type="Script" uid="uid://dk8bakavbt0de" path="res://GUI/notification/notification.gd" id="1_0nr0h"]
-[ext_resource type="Texture2D" uid="uid://nrm8adprg6qu" path="res://item/sprites/map.png" id="2_484ju"]
-[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="3_bulmv"]
-[ext_resource type="Texture2D" uid="uid://chrndvnr00f55" path="res://item/sprites/paintingspanish.png" id="3_elbci"]
+[ext_resource type="Script" uid="uid://dk8bakavbt0de" path="res://GUI/notification/notification.gd" id="1_yvffc"]
+[ext_resource type="Texture2D" uid="uid://nrm8adprg6qu" path="res://item/sprites/map.png" id="2_vwf8o"]
+[ext_resource type="Texture2D" uid="uid://chrndvnr00f55" path="res://item/sprites/paintingspanish.png" id="3_6rvns"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="4_bk7vd"]
 
 [sub_resource type="FontVariation" id="FontVariation_7cjes"]
-base_font = ExtResource("3_bulmv")
+base_font = ExtResource("4_bk7vd")
 
-[node name="calambamapandpaint" type="CanvasLayer" unique_id=2083378010]
-script = ExtResource("1_0nr0h")
+[node name="printingpressopthology" type="CanvasLayer" unique_id=2083378010]
+visible = false
+script = ExtResource("1_yvffc")
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=1909789011]
 anchors_preset = 5
@@ -32,7 +33,7 @@ offset_right = -2.0
 offset_bottom = 277.0
 grow_horizontal = 2
 mouse_filter = 2
-texture = ExtResource("2_484ju")
+texture = ExtResource("2_vwf8o")
 
 [node name="TextureRect2" type="TextureRect" parent="." unique_id=685019619]
 anchors_preset = 5
@@ -44,7 +45,7 @@ offset_right = 160.0
 offset_bottom = 281.0
 grow_horizontal = 2
 mouse_filter = 2
-texture = ExtResource("3_elbci")
+texture = ExtResource("3_6rvns")
 
 [node name="ItemName2" type="Label" parent="." unique_id=1432537191]
 anchors_preset = -1
@@ -70,14 +71,14 @@ anchor_left = 0.492
 anchor_top = 0.157
 anchor_right = 0.492
 anchor_bottom = 0.157
-offset_left = -231.0
-offset_top = 203.4
-offset_right = 437.0
-offset_bottom = 252.4
+offset_left = -209.0
+offset_top = 201.4
+offset_right = 459.0
+offset_bottom = 250.4
 grow_horizontal = 2
 size_flags_horizontal = 4
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.741176)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = SubResource("FontVariation_7cjes")
 theme_override_font_sizes/font_size = 28
-text = "Old Calamba map and  Rizal’s First Painting"
+text = "Printing Sheets and  Rizal’s Ophthalmology"

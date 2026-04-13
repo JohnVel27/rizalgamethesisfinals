@@ -17,6 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://cc80kpryde5b8" path="res://characters/shipcaptain/shipcaptainwalk.tscn" id="15_o6frr"]
 [ext_resource type="PackedScene" uid="uid://dsfsv0vf71b0w" path="res://characters/passengers/passengernonwalk.tscn" id="16_3cmbr"]
 [ext_resource type="PackedScene" uid="uid://c6uwktd5sd0bg" path="res://characters/carriage.tscn" id="17_lqtq2"]
+[ext_resource type="PackedScene" uid="uid://bkaec0cfcqj11" path="res://GUI/notification/midterm/printingpressandopthology.tscn" id="18_bp4q1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q3pk1"]
 texture = ExtResource("1_nh6qj")
@@ -12071,3 +12072,5 @@ position = Vector2(654, 469)
 
 [node name="Carriage" parent="." unique_id=1964661476 instance=ExtResource("17_lqtq2")]
 position = Vector2(897, 523)
+
+[node name="printingpressopthology" parent="." unique_id=2083378010 instance=ExtResource("18_bp4q1")]

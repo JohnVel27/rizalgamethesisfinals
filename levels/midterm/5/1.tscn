@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://cestyxtyk3e4a" path="res://levels/sprites/environment/Walls.png" id="4_uab7t"]
 [ext_resource type="Texture2D" uid="uid://3s5g0mgavt3b" path="res://levels/sprites/environment/GER_HOUSE.png" id="7_oy13i"]
 [ext_resource type="PackedScene" uid="uid://djhisukfxtj0m" path="res://levels/level_transition.tscn" id="12_f4khx"]
+[ext_resource type="PackedScene" uid="uid://b3kgilrxcoh4l" path="res://GUI/notification/midterm/letterfrompaciano.tscn" id="13_f4khx"]
 [ext_resource type="AudioStream" uid="uid://tp8o0vogatrp" path="res://asset/sfx/Doorsfx.wav" id="13_fmkbh"]
 [ext_resource type="PackedScene" uid="uid://bana47hu7ydsu" path="res://GUI/instruction/fullsize.tscn" id="14_fmkbh"]
 [ext_resource type="PackedScene" uid="uid://bge5wggf77ret" path="res://levels/cursor.tscn" id="15_wqfno"]
@@ -2196,3 +2197,5 @@ position = Vector2(561, 143)
 [node name="Arrow2" parent="." unique_id=1621553937 instance=ExtResource("16_8am3f")]
 position = Vector2(551.00006, 264)
 rotation = -3.0984347
+
+[node name="letterfrompaciano" parent="." unique_id=2083378010 instance=ExtResource("13_f4khx")]

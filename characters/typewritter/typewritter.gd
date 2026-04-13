@@ -42,6 +42,10 @@ func start_dialogue(timeline_name: String):
 	Dialogic.start(timeline_name) 
 
 func _on_timeline_ended():
+	
+	if has_node("/root/QuestManager"):
+			QuestManager.update_quest("In the France", "Interact to the table", true)
+			
 	if started_this_dialogue:
 		started_this_dialogue = false
 		if player:

@@ -1,24 +1,30 @@
 label minigame1
-Narrator: How old is rizal died ?
-[text_input text="Enter age:" var="minigame.mingame1" placeholder="??"]
-if {minigame.mingame1} == "35":
-	Narrator: Correct! He was 35 years old.
+Narrator: What is one theme in Noli Me Tangere?\
+\
+Hint\: t i j s e u n i c
+[text_input text="Enter the correct answer:" var="minigame.mingame1" placeholder="all must lowercase letters !!"]
+if {minigame.mingame1} == "injustice":
+	Narrator: Correct! Injustice is the correct answer.
 else:
-	Narrator: Incorrect. He was born in 1861 and died in 1896, making him 35.
+	Narrator: Incorrect.
 	jump typewritter/minigame1
 label minigame2
-Narrator: 1+1
-[text_input text="Please enter the Answer:" var="minigame.minigame2" placeholder="??"]
-if {minigame.minigame2} == "2":
+Narrator: Who is rizal's best friend in europe that helped Rizal publish his book?\
+\
+Hint\: o x a m i m      a l o i V
+[text_input text="Enter the correct answer:" var="minigame.minigame2" placeholder="all must lowercase letters !!"]
+if {minigame.minigame2} == "maximo viola":
 	Narrator: You are Correct !!
 else:
-	Narrator: Incorrect the correct answer is 2.
+	Narrator: Incorrect.
 	jump typewritter/minigame2
 label minigame3
-Narrator: 3 + 3
-[text_input text="Please Enter the Answer:" var="minigame.minigame3" placeholder="??"]
-if {minigame.minigame3} == "6":
+Narrator: Name one country Rizal stayed in Europe\
+\
+Hint\: n i  a p s
+[text_input text="Enter the correct answer:" var="minigame.minigame3" placeholder="all must lowercase letters !!"]
+if {minigame.minigame3} == "spain":
 	Narrator: You are correct the anwer !!
 else:
-	Narrator: You are incorrect do it again the answer is 6
+	Narrator: Incorrect
 	jump typewritter/minigame3

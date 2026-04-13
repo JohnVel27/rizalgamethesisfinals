@@ -99,6 +99,7 @@ directories/dtl_directory={
 "foughtback": "res://dialogue/timeline/prelim/2/foughtback.dtl",
 "goingtobinan": "res://dialogue/timeline/prelim/2/goingtobinan.dtl",
 "gotomedicalclinic": "res://dialogue/timeline/midterm/2/gotomedicalclinic.dtl",
+"interacttable": "res://dialogue/timeline/midterm/2/interacttable.dtl",
 "narrator-livingroom": "res://dialogue/timeline/prelim/1/narrator-livingroom.dtl",
 "remind_rizal_talk_francisco": "res://dialogue/timeline/prelim/1/remind_rizal_talk_francisco.dtl",
 "remind_teodora": "res://dialogue/timeline/prelim/1/remind_teodora.dtl",

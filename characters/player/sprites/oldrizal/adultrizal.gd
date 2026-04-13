@@ -66,6 +66,8 @@ func _ready() -> void:
 		start_opening_dialogue("SecondHomecoming1")
 	elif scene_path.ends_with("res://levels/finals/4/manilameetinghouses.tscn"):
 		start_opening_dialogue("FoundingofLaLigaFilipina")
+	elif scene_path.ends_with("res://levels/midterm/2/rizaltypewritter.tscn"):
+		start_opening_dialogue("interacttable")
 
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 	Dialogic.signal_event.connect(_on_dialogic_juancho_signal)

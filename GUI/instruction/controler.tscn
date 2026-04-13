@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://ok734fj2ncwb"]
+[gd_scene format=3 uid="uid://ok734fj2ncwb"]
 
 [ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="1_m5buq"]
 [ext_resource type="Script" uid="uid://15ssmjgp8kw7" path="res://GUI/instruction/hidecontroller.gd" id="2_8a5ku"]
@@ -12,9 +12,9 @@ base_font = ExtResource("1_m5buq")
 [sub_resource type="FontVariation" id="FontVariation_m5buq"]
 base_font = ExtResource("1_m5buq")
 
-[node name="Controler" type="CanvasLayer"]
+[node name="Controler" type="CanvasLayer" unique_id=95469743]
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1014329001]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -27,7 +27,7 @@ grow_vertical = 2
 mouse_filter = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_8a5ku")
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." unique_id=1897484075]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -49,9 +49,11 @@ W – Open Quest
 
 E – Interact with objects / NPCs
 
-Right Click   –   to walk"
+Right Click   –   to walk
 
-[node name="Button" type="Button" parent="."]
+Esc - Pause menu/Settings/Quit"
+
+[node name="Button" type="Button" parent="." unique_id=1536850221]
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0

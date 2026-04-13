@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://y5pi4ocbpmr5"]
+
+[ext_resource type="Script" uid="uid://05uswdx0t376" path="res://GUI/pause_menu/pause_menu.gd" id="1_4w82k"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_yiq8o"]
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=349653702]
+script = ExtResource("1_4w82k")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=400153821]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.23137255, 0.23137255, 0.23137255, 0.5921569)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1058288771]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -174.0
+offset_top = -165.0
+offset_right = 258.0
+offset_bottom = 477.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 21
+
+[node name="resumebutton" type="Button" parent="VBoxContainer" unique_id=1131539222]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_yiq8o")
+theme_override_font_sizes/font_size = 40
+text = "Resume"
+
+[node name="settingsbutton" type="Button" parent="VBoxContainer" unique_id=1045235384]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_yiq8o")
+theme_override_font_sizes/font_size = 40
+text = "Settings"
+
+[node name="exitbutton" type="Button" parent="VBoxContainer" unique_id=1645978621]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_yiq8o")
+theme_override_font_sizes/font_size = 40
+text = "Exit"

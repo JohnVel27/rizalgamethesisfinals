@@ -34,12 +34,6 @@ theme_override_fonts/font = ExtResource("2_yiq8o")
 theme_override_font_sizes/font_size = 40
 text = "Resume"
 
-[node name="settingsbutton" type="Button" parent="VBoxContainer" unique_id=1045235384]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_yiq8o")
-theme_override_font_sizes/font_size = 40
-text = "Settings"
-
 [node name="exitbutton" type="Button" parent="VBoxContainer" unique_id=1645978621]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_yiq8o")

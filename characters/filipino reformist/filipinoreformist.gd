@@ -8,6 +8,7 @@ const LEVEL_DATA := {
 	"res://levels/midterm/5/brusselsappartmentrizal.tscn": ["5/1", "res://GUI/mainmenu/levels.tscn"]
 }
 
+
 var is_near_npc: bool = false
 var started_this_dialogue: bool = false 
 var current_target_scene: String = ""

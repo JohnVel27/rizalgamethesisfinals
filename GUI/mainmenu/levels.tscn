@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bk34xgyvf0717" path="res://GUI/mainmenu/main_menu.png" id="2_d8j8o"]
 [ext_resource type="Texture2D" uid="uid://d3ktvlix8l8uo" path="res://GUI/mainmenu/button.png" id="3_jyrh2"]
 [ext_resource type="AudioStream" uid="uid://ghw185gsiwqb" path="res://asset/sfx/bgm_ls.mp3" id="4_50qnj"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="5_33y1b"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d8j8o"]
 texture = ExtResource("2_d8j8o")
@@ -97,5 +98,24 @@ stream = ExtResource("4_50qnj")
 volume_db = -35.0
 autoplay = true
 
+[node name="Button" type="Button" parent="." unique_id=1785630044]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -227.0
+offset_top = -77.0
+offset_right = 2.0
+offset_bottom = -32.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("5_33y1b")
+theme_override_font_sizes/font_size = 30
+text = "How to play game"
+
 [connection signal="pressed" from="VBoxContainer/prelim" to="." method="_on_prelim_pressed"]
 [connection signal="pressed" from="VBoxContainer/prelim3" to="." method="_on_prelim_3_pressed"]
+[connection signal="pressed" from="VBoxContainer/prelim2" to="." method="_on_prelim_2_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

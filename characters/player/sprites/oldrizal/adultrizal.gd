@@ -68,6 +68,10 @@ func _ready() -> void:
 		start_opening_dialogue("FoundingofLaLigaFilipina")
 	elif scene_path.ends_with("res://levels/midterm/2/rizaltypewritter.tscn"):
 		start_opening_dialogue("interacttable")
+	elif scene_path.ends_with("res://levels/finals/6/courtroom.tscn"):
+		start_opening_dialogue("TrialandMartyrdom1")
+	elif scene_path.ends_with("res://levels/finals/5/dapitanvillage.tscn"):
+		start_opening_dialogue("ExileinDapitan1")
 
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 	Dialogic.signal_event.connect(_on_dialogic_juancho_signal)
@@ -139,7 +143,13 @@ func _on_dialogue_finished() -> void:
 		await start_smooth_transition("res://levels/finals/3/familyresidence.tscn")
 	if current_opening_dialogue == "FoundingofLaLigaFilipina":
 		await start_smooth_transition("res://levels/finals/5/dapitanvillage.tscn")
+	if current_opening_dialogue == "ExileinDapitan1":
+		await start_smooth_transition("res://levels/finals/6/courtroom.tscn")
+	if current_opening_dialogue == "TrialandMartyrdom1":
+		await start_smooth_transition("res://GUI/mainmenu/levels.tscn")
+	
 	current_opening_dialogue = ""
+
 
 # =========================
 # MOVEMENT & PATHFINDING

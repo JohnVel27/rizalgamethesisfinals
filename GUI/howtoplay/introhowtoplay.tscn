@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bh38gj1hj8bso"]
 
 [ext_resource type="Texture2D" uid="uid://dxtutvxmlt0a1" path="res://asset/images/howtoplaywalk.png" id="1_8ufur"]
+[ext_resource type="Script" uid="uid://blo0o4bpd0qta" path="res://GUI/howtoplay/howtoplaygame.gd" id="1_esuj5"]
 [ext_resource type="Texture2D" uid="uid://c5o6nule3rsfc" path="res://asset/images/paper_bg.png" id="1_vgi32"]
 [ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_l5nr6"]
 [ext_resource type="Texture2D" uid="uid://cicqwppk1xpli" path="res://asset/images/howtoplay-quest.png" id="3_uw84m"]
@@ -10,6 +11,7 @@
 base_font = ExtResource("2_l5nr6")
 
 [node name="Introhowtoplay" type="CanvasLayer" unique_id=1870981237]
+script = ExtResource("1_esuj5")
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=160604224]
 anchors_preset = 15
@@ -123,3 +125,13 @@ offset_bottom = 81.0
 grow_vertical = 2
 texture = ExtResource("3_uw84m")
 expand_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=46754918]
+offset_left = 19.0
+offset_top = 14.0
+offset_right = 64.0
+offset_bottom = 45.0
+theme_override_font_sizes/font_size = 30
+text = "<<--BACK"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

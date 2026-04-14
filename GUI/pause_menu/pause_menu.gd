@@ -1,7 +1,6 @@
 extends CanvasLayer
 
 @onready var button_resume: Button = $VBoxContainer/resumebutton
-@onready var button_settings: Button = $VBoxContainer/settingsbutton
 @onready var button_exit: Button = $VBoxContainer/exitbutton
 
 # List of scenes where the pause menu is forbidden

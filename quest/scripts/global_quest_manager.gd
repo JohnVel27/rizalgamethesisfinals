@@ -29,6 +29,7 @@ var all_quests: Dictionary = {
 	"final": []
 }
 
+	
 func _ready() -> void:
 	current_quests = []
 	

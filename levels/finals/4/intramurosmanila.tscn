@@ -15,6 +15,9 @@
 [ext_resource type="PackedScene" uid="uid://bge5wggf77ret" path="res://levels/cursor.tscn" id="10_do6di"]
 [ext_resource type="PackedScene" uid="uid://ck2d5qp7jls4c" path="res://characters/player/sprites/oldrizal/adultrizal.tscn" id="11_wsfi8"]
 [ext_resource type="PackedScene" uid="uid://tpar5p55q7uk" path="res://levels/sprites/arrow/arrow.tscn" id="15_cx7lf"]
+[ext_resource type="PackedScene" uid="uid://bqo62mvt2gen5" path="res://characters/European Scholars/europeanscholars2.tscn" id="16_mrsud"]
+[ext_resource type="PackedScene" uid="uid://bha8s4ojuxsc2" path="res://characters/European Scholars/europeanscholars.tscn" id="17_ecd8y"]
+[ext_resource type="PackedScene" uid="uid://d2uff7ot6w80j" path="res://characters/NPC/sprites/farmer/farmer1.tscn" id="18_ecd8y"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3pew2"]
 texture = ExtResource("2_jvjwn")
@@ -8323,3 +8326,24 @@ rotation = -3.1082547
 [node name="Arrow3" parent="." unique_id=774372963 instance=ExtResource("15_cx7lf")]
 position = Vector2(61, 336)
 rotation = -1.5491445
+
+[node name="europeanscholar" parent="." unique_id=697051529 instance=ExtResource("16_mrsud")]
+position = Vector2(-51, 510)
+
+[node name="europeanscholar2" parent="." unique_id=1793818842 instance=ExtResource("16_mrsud")]
+position = Vector2(403, 519)
+
+[node name="europeanscholar3" parent="." unique_id=1726674801 instance=ExtResource("16_mrsud")]
+position = Vector2(819, 512)
+
+[node name="europeanscholar4" parent="." unique_id=1822144556 instance=ExtResource("17_ecd8y")]
+position = Vector2(631, 280)
+
+[node name="farmer1" parent="." unique_id=420635623 instance=ExtResource("18_ecd8y")]
+position = Vector2(-420, 758)
+
+[node name="farmer2" parent="." unique_id=1785546465 instance=ExtResource("18_ecd8y")]
+position = Vector2(143, 661)
+
+[node name="farmer3" parent="." unique_id=436578986 instance=ExtResource("18_ecd8y")]
+position = Vector2(-94, 337)

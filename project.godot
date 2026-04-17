@@ -66,9 +66,12 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "1": "res://dialogue/timeline/midterm/1/1.dtl",
+"1finalsnarrator1": "res://dialogue/timeline/finals/1/1finalsnarrator1.dtl",
+"1finalsnarrator2": "res://dialogue/timeline/finals/1/1finalsnarrator2.dtl",
 "1midtermnarrator1": "res://dialogue/timeline/midterm/1/1midtermnarrator1.dtl",
 "1narratorfirstglimpse": "res://dialogue/timeline/prelim/1/1narratorfirstglimpse.dtl",
 "2/1": "res://dialogue/timeline/midterm/2/1.dtl",
+"2finalsnarrator1": "res://dialogue/timeline/finals/2/2finalsnarrator1.dtl",
 "2juanchorizal1": "res://dialogue/timeline/prelim/2/2juanchorizal1.dtl",
 "2maestrocruzrizal1": "res://dialogue/timeline/prelim/2/2maestrocruzrizal1.dtl",
 "2midtermnarrator1": "res://dialogue/timeline/midterm/2/2midtermnarrator1.dtl",
@@ -104,6 +107,9 @@ directories/dtl_directory={
 "remind_rizal_talk_francisco": "res://dialogue/timeline/prelim/1/remind_rizal_talk_francisco.dtl",
 "remind_teodora": "res://dialogue/timeline/prelim/1/remind_teodora.dtl",
 "rizalfranciscotalk1": "res://dialogue/timeline/prelim/1/rizalfranciscotalk1.dtl",
+"rizalinmadrid": "res://dialogue/timeline/finals/1/rizalinmadrid.dtl",
+"rizalintramuros": "res://dialogue/timeline/finals/4/rizalintramuros.dtl",
+"rizalreturnhometophilippinesboat": "res://dialogue/timeline/finals/3/rizalreturnhometophilippinesboat.dtl",
 "rizalteodoratalk1": "res://dialogue/timeline/prelim/1/rizalteodoratalk1.dtl",
 "secondhomecoming2": "res://dialogue/timeline/finals/3/secondhomecoming2.dtl",
 "storyofmoth": "res://dialogue/timeline/prelim/1/storyofmoth.dtl",

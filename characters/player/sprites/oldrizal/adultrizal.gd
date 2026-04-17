@@ -72,6 +72,16 @@ func _ready() -> void:
 		start_opening_dialogue("TrialandMartyrdom1")
 	elif scene_path.ends_with("res://levels/finals/5/dapitanvillage.tscn"):
 		start_opening_dialogue("ExileinDapitan1")
+	elif scene_path.ends_with("res://levels/finals/1/madridspain.tscn"):
+		start_opening_dialogue("1finalsnarrator1")
+	elif scene_path.ends_with("res://levels/finals/1/europeanmettinghouses.tscn"):
+		start_opening_dialogue("1finalsnarrator2")
+	elif scene_path.ends_with("res://levels/finals/2/london.tscn"):
+		start_opening_dialogue("2finalsnarrator1")
+	elif scene_path.ends_with("res://levels/finals/4/intramurosmanila.tscn"):
+		start_opening_dialogue("rizalintramuros")
+	
+		
 
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 	Dialogic.signal_event.connect(_on_dialogic_juancho_signal)
@@ -140,7 +150,7 @@ func _on_dialogue_finished() -> void:
 	if current_opening_dialogue == "2maestrocruzrizal1":
 		await start_smooth_transition("res://levels/prelim/2/juanchocarrera.tscn")
 	if current_opening_dialogue == "StudyingPhilippineHistory":
-		await start_smooth_transition("res://levels/finals/3/familyresidence.tscn")
+		await start_smooth_transition("res://levels/finals/3/boat_finals_returnhome.tscn")
 	if current_opening_dialogue == "FoundingofLaLigaFilipina":
 		await start_smooth_transition("res://levels/finals/5/dapitanvillage.tscn")
 	if current_opening_dialogue == "ExileinDapitan1":

@@ -26309,7 +26309,7 @@ visible = false
 visible = false
 
 [node name="adultrizal" parent="." unique_id=1343408507 instance=ExtResource("11_857h7")]
-position = Vector2(651, 277)
+position = Vector2(810, 696)
 
 [node name="graciano" parent="." unique_id=783845276 instance=ExtResource("12_7o6fx")]
 position = Vector2(475, 191)

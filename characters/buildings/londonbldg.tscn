@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dgu3l8lvxg6tp"]
+
+[ext_resource type="Texture2D" uid="uid://fqc6txbrnx76" path="res://levels/sprites/environment/LONDON_BIG_BLDG.png" id="1_yjhrr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jm2c8"]
+atlas = ExtResource("1_yjhrr")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nnd5a"]
+size = Vector2(616, 326)
+
+[node name="Francehouse" type="CharacterBody2D" unique_id=1865809270]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1782456502]
+position = Vector2(17.500008, 39.499985)
+scale = Vector2(1.4234376, 1.3140625)
+texture = SubResource("AtlasTexture_jm2c8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1299784861]
+position = Vector2(17, -19)
+shape = SubResource("RectangleShape2D_nnd5a")

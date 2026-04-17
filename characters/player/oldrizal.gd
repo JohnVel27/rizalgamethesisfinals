@@ -54,6 +54,9 @@ func _ready() -> void:
 		
 	elif scene_path.ends_with("res://levels/midterm/1/boat_soujourn.tscn"):
 		start_opening_dialogue("boatmidterm1")
+	
+	elif scene_path.ends_with("res://levels/finals/3/boat_finals_returnhome.tscn"):
+		start_opening_dialogue("rizalreturnhometophilippinesboat")
 		
 
 func start_opening_dialogue(timeline_name: String) -> void:
@@ -78,6 +81,9 @@ func _on_dialogue_finished() -> void:
 		
 	if current_opening_dialogue == "boatmidterm1":
 		await start_smooth_transition("res://levels/midterm/2/1.tscn")
+	
+	if current_opening_dialogue == "rizalreturnhometophilippinesboat":
+		await start_smooth_transition("res://levels/finals/3/familyresidence.tscn")
 		
 	current_opening_dialogue = ""
 	

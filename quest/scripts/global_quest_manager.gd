@@ -3,12 +3,13 @@ extends Node
 signal quest_updated(q)
 
 const QUEST_DATA_LOCATION: String = "res://quest/"
+const SAVE_PATH := "user://quest_save.dat"
 
-## Drag your .tres files here in the Inspector! (Safest for exports)
 @export var quest_library: Array[Quest] = []
 
 var quests: Array[Quest] = []
 var current_quests: Array = []
+var active_category: String = ""
 
 var all_quests: Dictionary = {
 	"prelim": [
@@ -33,10 +34,50 @@ var all_quests: Dictionary = {
 func _ready() -> void:
 	current_quests = []
 	
-	for category in ["prelim", "midterm"]:
-		current_quests += all_quests[category].duplicate(true)
+func load_category(category: String) -> void:
+	active_category = category
+	current_quests = []
 	
+	if not all_quests.has(category):
+		print("Invalid category:", category)
+		return
+	
+	for quest in all_quests[category]:
+		current_quests.append(quest.duplicate(true))
+	
+	apply_saved_progress()
 	gather_quest_data()
+	
+func save_quests() -> void:
+	var file = FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+	file.store_var(all_quests)
+	file.close()
+	
+func load_quests() -> void:
+	if not FileAccess.file_exists(SAVE_PATH):
+		return
+	
+	var file = FileAccess.open(SAVE_PATH, FileAccess.READ)
+	all_quests = file.get_var()
+	file.close()
+	
+func apply_saved_progress() -> void:
+	for quest in current_quests:
+		var saved = find_saved_quest(quest["title"])
+		if saved:
+			quest["is_complete"] = saved["is_complete"]
+			quest["completed_steps"] = saved["completed_steps"]
+			
+
+			
+func find_saved_quest(title: String) -> Dictionary:
+	if not all_quests.has(active_category):
+		return {}
+	
+	for q in all_quests[active_category]:
+		if q["title"].to_lower() == title.to_lower():
+			return q
+	return {}
 	
 	
 	
@@ -111,14 +152,20 @@ func update_quest(_title: String, _step: String = "", _complete: bool = false) -
 			"is_complete": _complete,
 			"completed_steps": []
 		}
-		if sanitized_step != "": 
+		
+		if sanitized_step != "":
 			new_quest["completed_steps"].append(sanitized_step)
 		
 		current_quests.append(new_quest)
-		if _complete: 
+		
+		if _complete:
+			new_quest["is_complete"] = true
 			_process_rewards(_title)
 		
 		quest_updated.emit(new_quest)
+		
+		# ✅ SAVE AFTER CHANGE
+		save_quests()
 		return
 
 	var q = current_quests[index]
@@ -129,9 +176,13 @@ func update_quest(_title: String, _step: String = "", _complete: bool = false) -
 	if _complete and not q["is_complete"]:
 		q["is_complete"] = true
 		_process_rewards(_title)
-	
+
 	quest_updated.emit(q)
+
 	print("Quest Log Updated: ", _title, " | Complete: ", q["is_complete"])
+
+	# ✅ AUTO SAVE AFTER ANY UPDATE
+	save_quests()
 
 func _process_rewards(_title: String) -> void:
 	var quest_res = find_quest_by_title(_title)

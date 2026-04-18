@@ -26319,4 +26319,4 @@ position = Vector2(281, 184)
 position = Vector2(376, 186)
 
 [node name="spanishmilitary" parent="." unique_id=660902887 instance=ExtResource("14_dwxab")]
-position = Vector2(562, 302)
+position = Vector2(582, 286)

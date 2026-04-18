@@ -84,7 +84,7 @@ func find_saved_quest(title: String) -> Dictionary:
 func check_location_completion() -> void:
 	var current_scene_path = get_tree().current_scene.scene_file_path
 	
-	# Check if player is in the Rizal Living Room
+	
 	if current_scene_path == "res://levels/prelim/1/livingroomrizal.tscn":
 		update_quest("The Beginning in Calamba", "Travel to Rizal's house", false)
 		print("Location reached: Rizal Home")
@@ -108,7 +108,7 @@ func check_location_completion() -> void:
 func gather_quest_data() -> void:
 	quests.clear()
 	
-	# 1. Use the exported library if you filled it (Most reliable)
+	
 	if quest_library.size() > 0:
 		quests = quest_library
 		print("QuestManager: Loaded from Inspector Library. Count: ", quests.size())
@@ -145,7 +145,7 @@ func update_quest(_title: String, _step: String = "", _complete: bool = false) -
 	var index = get_quest_index_by_title(_title)
 	var sanitized_step = _step.strip_edges().to_lower()
 
-	# If quest isn't in current_quests, add it
+	
 	if index == -1:
 		var new_quest: Dictionary = {
 			"title": _title,
@@ -164,7 +164,7 @@ func update_quest(_title: String, _step: String = "", _complete: bool = false) -
 		
 		quest_updated.emit(new_quest)
 		
-		# ✅ SAVE AFTER CHANGE
+		
 		save_quests()
 		return
 
@@ -181,7 +181,7 @@ func update_quest(_title: String, _step: String = "", _complete: bool = false) -
 
 	print("Quest Log Updated: ", _title, " | Complete: ", q["is_complete"])
 
-	# ✅ AUTO SAVE AFTER ANY UPDATE
+	
 	save_quests()
 
 func _process_rewards(_title: String) -> void:

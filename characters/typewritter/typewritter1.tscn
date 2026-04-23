@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://khnsg0iujrs5"]
+
+[ext_resource type="Texture2D" uid="uid://cumk7qvqgax78" path="res://levels/sprites/environment/TABLE.png" id="2_mdksr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8f1ks"]
+radius = 42.44997
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6u5q5"]
+radius = 84.8999
+
+[node name="typewritter" type="CharacterBody2D" unique_id=905446565]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=658725923]
+texture = ExtResource("2_mdksr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=761171493]
+position = Vector2(-1, 4)
+shape = SubResource("CircleShape2D_8f1ks")
+
+[node name="Timer" type="Timer" parent="." unique_id=1951458884]
+
+[node name="chatdetection" type="Area2D" parent="." unique_id=2099492501]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection" unique_id=1671416254]
+shape = SubResource("CircleShape2D_6u5q5")
+
+[connection signal="body_entered" from="chatdetection" to="." method="_on_chatdetection_body_entered"]
+[connection signal="body_exited" from="chatdetection" to="." method="_on_chatdetection_body_exited"]

@@ -1,0 +1,39 @@
+label philippines
+Narrator: In the first stanza of Mi Ultimo Adios, he calls the __ "Nuestro perdido Edén" (Our lost Eden) and Perla del Mar de Oriente (Pearl of the Orient Sea)
+- Spain
+	Narrator: Incorrect, hint he mentions his homeland
+	jump philippines
+- Madrid
+	Narrator: Incorrect, hint he mentions his homeland
+	jump philippines
+- Europe
+	Narrator: Incorrect, hint he mentions his homeland
+	jump philippines
+- Philippines
+	Narrator: Correct
+label fortsantiago
+Narrator: Where was Rizal when he wrote Mi ultimo Adios?
+- Dapitan
+	Narrator: Incorrect, hint It is a prison
+	jump fortsantiago
+- Spain
+	Narrator: Incorrect, hint It is a prison
+	jump fortsantiago
+- Fort Santiago
+	Narrator: Correct
+- Belgium
+	Narrator: Incorrect, hint It is a prison
+	jump fortsantiago
+label josephine
+Narrator: in the poem whom did Rizal call his "sweet stranger" in the final stanza?
+- Maria
+	Narrator: incorrect, hint her last name is bracken
+	jump josephine
+- Leonor
+	Narrator: incorrect, hint her last name is bracken
+	jump josephine
+- Teodora
+	Narrator: incorrect, hint her last name is bracken
+	jump josephine
+- Josephine
+	Narrator: Correct

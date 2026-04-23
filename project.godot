@@ -104,6 +104,7 @@ directories/dtl_directory={
 "gotomedicalclinic": "res://dialogue/timeline/midterm/2/gotomedicalclinic.dtl",
 "interacttable": "res://dialogue/timeline/midterm/2/interacttable.dtl",
 "narrator-livingroom": "res://dialogue/timeline/prelim/1/narrator-livingroom.dtl",
+"prison": "res://dialogue/timeline/finals/6/prison.dtl",
 "remind_rizal_talk_francisco": "res://dialogue/timeline/prelim/1/remind_rizal_talk_francisco.dtl",
 "remind_teodora": "res://dialogue/timeline/prelim/1/remind_teodora.dtl",
 "rizalfranciscotalk1": "res://dialogue/timeline/prelim/1/rizalfranciscotalk1.dtl",
@@ -112,6 +113,7 @@ directories/dtl_directory={
 "rizalreturnhometophilippinesboat": "res://dialogue/timeline/finals/3/rizalreturnhometophilippinesboat.dtl",
 "rizalteodoratalk1": "res://dialogue/timeline/prelim/1/rizalteodoratalk1.dtl",
 "secondhomecoming2": "res://dialogue/timeline/finals/3/secondhomecoming2.dtl",
+"shot": "res://dialogue/timeline/finals/6/shot.dtl",
 "storyofmoth": "res://dialogue/timeline/prelim/1/storyofmoth.dtl",
 "typewritter": "res://dialogue/timeline/midterm/2/typewritter.dtl"
 }

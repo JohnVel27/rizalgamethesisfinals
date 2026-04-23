@@ -31993,6 +31993,7 @@ visible = false
 visible = false
 
 [node name="Cursor" parent="." unique_id=1776778687 instance=ExtResource("10_efvlt")]
+visible = false
 
 [node name="adultrizal" parent="." unique_id=1343408507 instance=ExtResource("13_bv6ki")]
 position = Vector2(651, 277)

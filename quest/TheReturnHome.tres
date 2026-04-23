@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://crcbjhsjv81gn"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_hdofk"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_vljic"]
+
+[resource]
+script = ExtResource("2_vljic")
+title = "The Return Home"
+description = "After your travel back to Manila to help your country the Spanish authorities are watchful of Rizal"
+steps = Array[String](["Talk to Paciano"])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

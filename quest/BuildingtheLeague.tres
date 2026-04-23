@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://djpuvotsirwaw"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_shbyn"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_3yt8e"]
+
+[resource]
+script = ExtResource("2_3yt8e")
+title = "Building the League"
+description = "Secretly gather supporters in Manila to found La Liga Filipina, a group dedicated to unity and education."
+steps = Array[String](["Go to manila meeting house", "Talk to Domingco Franco"])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

@@ -18,6 +18,8 @@
 [ext_resource type="PackedScene" uid="uid://bqo62mvt2gen5" path="res://characters/European Scholars/europeanscholars2.tscn" id="16_mrsud"]
 [ext_resource type="PackedScene" uid="uid://bha8s4ojuxsc2" path="res://characters/European Scholars/europeanscholars.tscn" id="17_ecd8y"]
 [ext_resource type="PackedScene" uid="uid://d2uff7ot6w80j" path="res://characters/NPC/sprites/farmer/farmer1.tscn" id="18_ecd8y"]
+[ext_resource type="PackedScene" uid="uid://cvn6fdha2vjty" path="res://characters/spanishmilitarty/spanishmilitarywalk.tscn" id="19_tgcgk"]
+[ext_resource type="PackedScene" uid="uid://cr1tkf386ce5n" path="res://characters/spanishmilitarty/spanishmilitary.tscn" id="20_ksfm6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3pew2"]
 texture = ExtResource("2_jvjwn")
@@ -8347,3 +8349,15 @@ position = Vector2(143, 661)
 
 [node name="farmer3" parent="." unique_id=436578986 instance=ExtResource("18_ecd8y")]
 position = Vector2(-94, 337)
+
+[node name="spanishmilitary" parent="." unique_id=660902887 instance=ExtResource("19_tgcgk")]
+position = Vector2(1024, 742)
+
+[node name="spanishmilitary2" parent="." unique_id=1819080412 instance=ExtResource("19_tgcgk")]
+position = Vector2(-156, 754)
+
+[node name="spanishmilitary3" parent="." unique_id=809479895 instance=ExtResource("20_ksfm6")]
+position = Vector2(147, 269)
+
+[node name="spanishmilitary4" parent="." unique_id=1117293068 instance=ExtResource("20_ksfm6")]
+position = Vector2(21, 264)

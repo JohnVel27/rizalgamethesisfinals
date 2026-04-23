@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://dk5iw0mx0pos6"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_jmxsh"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_1jwb8"]
+
+[resource]
+script = ExtResource("2_1jwb8")
+title = "The Pen and the Propaganda"
+description = "Join the Propaganda Movement in Madrid and convince your peers that writing is the best way to fight for reform."
+steps = Array[String](["Go to European madrid meeting house.", "Talk to Marcelo H. Del Pilar"])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

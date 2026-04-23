@@ -27,7 +27,14 @@ var all_quests: Dictionary = {
 		{ "title": "Second Sojourn to Europe (1888)", "is_complete": false, "completed_steps": [] },
 		{ "title": "Rizal in Brussels", "is_complete": false, "completed_steps": [] }
 	],
-	"final": []
+	"final": [
+		{ "title": "The Pen and the Propaganda", "is_complete": false, "completed_steps": [] },
+		{ "title": "Studying History In London", "is_complete": false, "completed_steps": [] },
+		{ "title": "The Return Home", "is_complete": false, "completed_steps": [] },
+		{ "title": "Building the League", "is_complete": false, "completed_steps": [] },
+		{ "title": "Life in Exile", "is_complete": false, "completed_steps": [] },
+		{ "title": "Mi Ultimo Adios", "is_complete": false, "completed_steps": [] },
+	]
 }
 
 	
@@ -104,6 +111,14 @@ func check_location_completion() -> void:
 		
 	if current_scene_path == "res://levels/midterm/5/brusselsappartmentrizal.tscn":
 		update_quest("Rizal in Brussels", "Go to Rizal Brussel Apartment", false)
+		
+	if current_scene_path == "res://levels/finals/1/europeanmettinghouses.tscn":
+		update_quest("The Pen and the Propaganda", "Go to European madrid meeting house.", false)
+		
+	if current_scene_path == "res://levels/finals/4/manilameetinghouses.tscn":
+		update_quest("Building the League", "Go to manila meeting house", false)
+		
+	
 
 func gather_quest_data() -> void:
 	quests.clear()

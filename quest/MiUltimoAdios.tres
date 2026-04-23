@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://g4usq8ixwuni"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_qt3oe"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_oku8a"]
+
+[resource]
+script = ExtResource("2_oku8a")
+title = "Mi Ultimo Adios"
+description = "Stand trial for your ideas and face your final moments with a clear conscience for the sake of the nation."
+steps = Array[String](["Farewell"])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

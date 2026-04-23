@@ -20,6 +20,10 @@
 [ext_resource type="PackedScene" uid="uid://brj5gwfojw3nm" path="res://characters/buildings/madridbldg.tscn" id="12_xapan"]
 [ext_resource type="PackedScene" uid="uid://b4t6bg6ob83td" path="res://characters/buildings/francehouse.tscn" id="17_w7kd7"]
 [ext_resource type="PackedScene" uid="uid://tpar5p55q7uk" path="res://levels/sprites/arrow/arrow.tscn" id="20_xapan"]
+[ext_resource type="PackedScene" uid="uid://bqo62mvt2gen5" path="res://characters/European Scholars/europeanscholars2.tscn" id="21_1fi71"]
+[ext_resource type="PackedScene" uid="uid://ef6ps8kicql0" path="res://characters/European Scholars/europeanscholars1.tscn" id="22_5ef16"]
+[ext_resource type="PackedScene" uid="uid://do0oe5esw44ac" path="res://characters/European Scholars/europeanscholars2walk.tscn" id="23_3ubro"]
+[ext_resource type="PackedScene" uid="uid://snqp8vcyl27h" path="res://characters/European Scholars/europeanscholars1walk.tscn" id="24_tf65k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3pew2"]
 texture = ExtResource("2_7uatg")
@@ -8986,3 +8990,21 @@ visible = false
 
 [node name="adultrizal" parent="." unique_id=1448676320 instance=ExtResource("9_k5iuo")]
 position = Vector2(401, 304)
+
+[node name="europeanscholar" parent="." unique_id=697051529 instance=ExtResource("21_1fi71")]
+position = Vector2(484, 338)
+
+[node name="europeanscholar2" parent="." unique_id=1513771083 instance=ExtResource("22_5ef16")]
+position = Vector2(875, 283)
+
+[node name="europeanscholar4" parent="." unique_id=1829145823 instance=ExtResource("24_tf65k")]
+position = Vector2(335, 597)
+
+[node name="europeanscholar6" parent="." unique_id=1666885349 instance=ExtResource("24_tf65k")]
+position = Vector2(482, 822)
+
+[node name="europeanscholar3" parent="." unique_id=481162480 instance=ExtResource("23_3ubro")]
+position = Vector2(-156, 393)
+
+[node name="europeanscholar5" parent="." unique_id=99731603 instance=ExtResource("23_3ubro")]
+position = Vector2(165, 425)

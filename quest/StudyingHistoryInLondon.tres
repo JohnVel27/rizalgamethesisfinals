@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://cmaugg7tkt4wh"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_cxwsd"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_2cn7d"]
+
+[resource]
+script = ExtResource("2_2cn7d")
+title = "Studying History In London"
+description = "Visit the libraries of London to study old Spanish records and rewrite Philippine history from a local perspective."
+steps = Array[String](["Go to the library"])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

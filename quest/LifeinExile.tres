@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Quest" format=3 uid="uid://bljrw3d374pa1"]
+
+[ext_resource type="Script" uid="uid://7ktwwmvwtcq0" path="res://quest/scripts/quest_reward_item.gd" id="1_ucubu"]
+[ext_resource type="Script" uid="uid://datfl3b15axlx" path="res://quest/scripts/quest_resource.gd" id="2_luilt"]
+
+[resource]
+script = ExtResource("2_luilt")
+title = "Life in Exile"
+description = "After you are exiled to Dapitan discuss the school's progress with Josephine Bracken."
+steps = Array[String](["Talking to Josphine Bracken"])
+metadata/_custom_type_script = "uid://datfl3b15axlx"

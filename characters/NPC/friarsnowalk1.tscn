@@ -1,117 +1,117 @@
-[gd_scene format=3 uid="uid://dr23lql51j60p"]
+[gd_scene format=3 uid="uid://bltey10vcx3p5"]
 
-[ext_resource type="Texture2D" uid="uid://dy0ic4bky0yyn" path="res://characters/NPC/sprites/dominicanfriar/Friar_Dominican_2.png" id="2_ncvc0"]
+[ext_resource type="Texture2D" uid="uid://dy0ic4bky0yyn" path="res://characters/NPC/sprites/dominicanfriar/Friar_Dominican_2.png" id="1_np5rm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dcysj"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(378, 0, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f6kmk"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(378, 180, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tcpge"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(378, 120, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vm4oc"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(378, 60, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2makq"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(0, 0, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2r0qt"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(63, 0, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gf0mw"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(126, 0, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uwcvj"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(189, 0, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_886j5"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(252, 0, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cvxef"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(315, 0, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_63v6q"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(0, 180, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jrfx3"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(63, 180, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u1054"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(126, 180, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_meq1d"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(189, 180, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e5mog"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(252, 180, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_irfq5"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(315, 180, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_smlot"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(0, 120, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_42fc7"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(63, 120, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6qy8k"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(126, 120, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lhsd0"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(189, 120, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hvd64"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(252, 120, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xbisv"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(315, 120, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_woxak"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(0, 60, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jsinr"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(63, 60, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u3jv2"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(126, 60, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ho24m"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(189, 60, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xmohg"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(252, 60, 63, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6mpj8"]
-atlas = ExtResource("2_ncvc0")
+atlas = ExtResource("1_np5rm")
 region = Rect2(315, 60, 63, 60)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_034je"]
@@ -247,23 +247,23 @@ radius = 21.3776
 [sub_resource type="CircleShape2D" id="CircleShape2D_6u5q5"]
 radius = 25.6125
 
-[node name="friarsnowalk" type="CharacterBody2D"]
+[node name="friarsnowalk" type="CharacterBody2D" unique_id=1759478046]
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1929981741]
 position = Vector2(1, -55)
 scale = Vector2(1.85156, 1.86765)
 sprite_frames = SubResource("SpriteFrames_034je")
-animation = &"carry_idle_down"
+animation = &"carry_idle_up"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1297661020]
 position = Vector2(10, -25)
 shape = SubResource("CircleShape2D_8f1ks")
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." unique_id=1960345766]
 
-[node name="chatdetection" type="Area2D" parent="."]
+[node name="chatdetection" type="Area2D" parent="." unique_id=894866989]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chatdetection" unique_id=2141018822]
 position = Vector2(8, -44)
 shape = SubResource("CircleShape2D_6u5q5")
 

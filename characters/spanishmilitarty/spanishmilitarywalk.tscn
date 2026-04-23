@@ -1,117 +1,118 @@
-[gd_scene format=3 uid="uid://cr1tkf386ce5n"]
+[gd_scene format=3 uid="uid://cvn6fdha2vjty"]
 
-[ext_resource type="Texture2D" uid="uid://cxy7djvjwacuu" path="res://characters/spanishmilitarty/SPANISH_SOLDIER.png" id="2_kthkg"]
+[ext_resource type="Script" uid="uid://c04amlb8wj4qq" path="res://characters/spanishmilitarty/spanishmilitary.gd" id="1_p5fn8"]
+[ext_resource type="Texture2D" uid="uid://cxy7djvjwacuu" path="res://characters/spanishmilitarty/SPANISH_SOLDIER.png" id="2_74nm2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kvpn2"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(378, 0, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_48hfy"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(378, 189, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hffhk"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(378, 126, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fv25g"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(378, 63, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dlg0n"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(0, 0, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q3it4"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(63, 0, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_grhiw"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(126, 0, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f6k7c"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(189, 0, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_umive"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(252, 0, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iapyo"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(315, 0, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ipvah"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(0, 189, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_166tv"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(63, 189, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rl4h7"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(126, 189, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kieqr"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(189, 189, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_keejp"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(252, 189, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_olt3m"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(315, 189, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_43xl3"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(0, 126, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lfe7n"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(63, 126, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pouu3"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(126, 126, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1em3j"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(189, 126, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e5inu"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(252, 126, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2uqkw"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(315, 126, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q70kt"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(0, 63, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ytxkq"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(63, 63, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jewye"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(126, 63, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0lb47"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(189, 63, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wvny6"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(252, 63, 63, 63)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lnoys"]
-atlas = ExtResource("2_kthkg")
+atlas = ExtResource("2_74nm2")
 region = Rect2(315, 63, 63, 63)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_034je"]
@@ -248,6 +249,7 @@ radius = 21.3776
 radius = 84.8999
 
 [node name="spanishmilitary" type="CharacterBody2D" unique_id=660902887]
+script = ExtResource("1_p5fn8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1276918157]
 position = Vector2(1, -55)

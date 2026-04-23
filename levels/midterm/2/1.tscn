@@ -21,6 +21,10 @@
 [ext_resource type="PackedScene" uid="uid://djhisukfxtj0m" path="res://levels/level_transition.tscn" id="17_4k3md"]
 [ext_resource type="AudioStream" uid="uid://tp8o0vogatrp" path="res://asset/sfx/Doorsfx.wav" id="18_8o75s"]
 [ext_resource type="PackedScene" uid="uid://tpar5p55q7uk" path="res://levels/sprites/arrow/arrow.tscn" id="21_6ras7"]
+[ext_resource type="PackedScene" uid="uid://ef6ps8kicql0" path="res://characters/European Scholars/europeanscholars1.tscn" id="22_oiq7m"]
+[ext_resource type="PackedScene" uid="uid://snqp8vcyl27h" path="res://characters/European Scholars/europeanscholars1walk.tscn" id="23_p7npy"]
+[ext_resource type="PackedScene" uid="uid://bqo62mvt2gen5" path="res://characters/European Scholars/europeanscholars2.tscn" id="24_6lgyr"]
+[ext_resource type="PackedScene" uid="uid://do0oe5esw44ac" path="res://characters/European Scholars/europeanscholars2walk.tscn" id="25_p7npy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gn0iy"]
 texture = ExtResource("1_30fnv")
@@ -5159,3 +5163,27 @@ position = Vector2(468, 355)
 [node name="Arrow2" parent="." unique_id=922426760 instance=ExtResource("21_6ras7")]
 position = Vector2(462, 484)
 rotation = 3.0907373
+
+[node name="europeanscholar" parent="." unique_id=697051529 instance=ExtResource("22_oiq7m")]
+position = Vector2(-323, 409)
+
+[node name="europeanscholar8" parent="." unique_id=585968393 instance=ExtResource("22_oiq7m")]
+position = Vector2(1176, 972)
+
+[node name="europeanscholar5" parent="." unique_id=763741864 instance=ExtResource("22_oiq7m")]
+position = Vector2(1308, 423)
+
+[node name="europeanscholar4" parent="." unique_id=1624827416 instance=ExtResource("23_p7npy")]
+position = Vector2(-127, 684)
+
+[node name="europeanscholar2" parent="." unique_id=647343237 instance=ExtResource("22_oiq7m")]
+position = Vector2(-228, 953)
+
+[node name="europeanscholar3" parent="." unique_id=786540195 instance=ExtResource("24_6lgyr")]
+position = Vector2(-801, 700)
+
+[node name="europeanscholar7" parent="." unique_id=48889889 instance=ExtResource("24_6lgyr")]
+position = Vector2(1046, 961)
+
+[node name="europeanscholar6" parent="." unique_id=1553895277 instance=ExtResource("25_p7npy")]
+position = Vector2(863, 362)

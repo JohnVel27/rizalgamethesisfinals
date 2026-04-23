@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://bge5wggf77ret" path="res://levels/cursor.tscn" id="13_d4k5k"]
 [ext_resource type="PackedScene" uid="uid://cbw4cx786h2mu" path="res://characters/NPC/siblingsrizal/francisco1.tscn" id="15_0wycj"]
 [ext_resource type="PackedScene" uid="uid://01yyjmirv4dk" path="res://characters/NPC/siblingsrizal/teodora1.tscn" id="15_piaaf"]
+[ext_resource type="PackedScene" uid="uid://cr1tkf386ce5n" path="res://characters/spanishmilitarty/spanishmilitary.tscn" id="16_piaaf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jtwxg"]
 texture = ExtResource("2_o6dcd")
@@ -26326,3 +26327,9 @@ position = Vector2(859, 521)
 
 [node name="teodora" parent="." unique_id=1764425415 instance=ExtResource("15_piaaf")]
 position = Vector2(743, 525)
+
+[node name="spanishmilitary" parent="." unique_id=660902887 instance=ExtResource("16_piaaf")]
+position = Vector2(830, 622)
+
+[node name="spanishmilitary2" parent="." unique_id=1297606015 instance=ExtResource("16_piaaf")]
+position = Vector2(726, 626)

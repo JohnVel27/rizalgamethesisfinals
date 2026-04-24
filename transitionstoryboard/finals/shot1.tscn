@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bshjgt2d8bp5a"]
+[gd_scene format=3 uid="uid://bvbluch0ut3qt"]
 
-[ext_resource type="Script" uid="uid://brlgesopfxlt8" path="res://transitionstoryboard/scripts/ust3.gd" id="1_tg2p3"]
-[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_eoal4"]
+[ext_resource type="Script" uid="uid://dgld0vs7japw5" path="res://transitionstoryboard/scripts/ust1.gd" id="1_vwe7d"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_2hcdi"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l1uyl"]
 
@@ -10,12 +10,12 @@ texture = SubResource("AtlasTexture_l1uyl")
 modulate_color = Color(0, 0, 0, 1)
 
 [sub_resource type="FontVariation" id="FontVariation_cxhqw"]
-base_font = ExtResource("2_eoal4")
+base_font = ExtResource("2_2hcdi")
 
-[node name="ateneo7" type="CanvasLayer"]
-script = ExtResource("1_tg2p3")
+[node name="ateneo7" type="CanvasLayer" unique_id=1250013366]
+script = ExtResource("1_vwe7d")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Panel" type="Panel" parent="." unique_id=445526579]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -23,17 +23,17 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_30ypi")
 
-[node name="calambaintroduction" type="Label" parent="."]
+[node name="calambaintroduction" type="Label" parent="." unique_id=875516858]
 custom_minimum_size = Vector2(350, 0)
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -370.5
-offset_top = -79.0
-offset_right = 370.5
-offset_bottom = 79.0
+offset_left = -389.5
+offset_top = -165.0
+offset_right = 379.0
+offset_bottom = 75.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.803922)
@@ -41,6 +41,6 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 30
 theme_override_fonts/font = SubResource("FontVariation_cxhqw")
 theme_override_font_sizes/font_size = 50
-text = "Ngunit iba ang mundong kanyang natagpuan sa UST."
+text = "At Bagumbayan Field, José Rizal was executed by a firing squad on December 30, 1896."
 horizontal_alignment = 3
 autowrap_mode = 3

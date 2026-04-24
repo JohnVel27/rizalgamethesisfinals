@@ -11,9 +11,9 @@ extends CharacterBody2D
 
 @export_group("Quest Settings")
 ## The exact title of the quest
-@export var quest_title: String = "First Homecoming in the Philippines (1887)"
+@export var quest_title: String = "The Pen and the Propaganda"
 ## The objective text
-@export var quest_step: String = "Talk to Teodora"
+@export var quest_step: String = "Talk to Marcelo H. Del Pilar"
 
 ## --- INTERNAL STATE ---
 var is_near_npc: bool = false

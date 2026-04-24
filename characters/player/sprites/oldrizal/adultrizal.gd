@@ -80,6 +80,8 @@ func _ready() -> void:
 		start_opening_dialogue("2finalsnarrator1")
 	elif scene_path.ends_with("res://levels/finals/4/intramurosmanila.tscn"):
 		start_opening_dialogue("rizalintramuros")
+	elif scene_path.ends_with("res://levels/finals/6/prison.tscn"):
+		start_opening_dialogue("prison")
 	
 		
 
@@ -153,10 +155,14 @@ func _on_dialogue_finished() -> void:
 		await start_smooth_transition("res://levels/finals/3/boat_finals_returnhome.tscn")
 	if current_opening_dialogue == "FoundingofLaLigaFilipina":
 		await start_smooth_transition("res://levels/finals/5/dapitanvillage.tscn")
+		QuestManager.update_quest("Building the League", "Talk to Domingco Franco", true)
 	if current_opening_dialogue == "ExileinDapitan1":
 		await start_smooth_transition("res://levels/finals/6/courtroom.tscn")
+		QuestManager.update_quest("Life in Exile", "Talking to Josphine Bracken", true)
 	if current_opening_dialogue == "TrialandMartyrdom1":
-		await start_smooth_transition("res://GUI/mainmenu/levels.tscn")
+		await start_smooth_transition("res://levels/finals/6/prison.tscn")
+	if current_opening_dialogue == "prison":
+		await start_smooth_transition("res://levels/finals/6/bagumbayan.tscn")
 	
 	current_opening_dialogue = ""
 

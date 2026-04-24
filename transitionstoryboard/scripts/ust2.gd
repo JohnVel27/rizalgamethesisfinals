@@ -24,4 +24,4 @@ func animate_text() -> void:
 func start_transition() -> void:
 	Transitionlayer.transition()
 	await Transitionlayer.on_transition_finished
-	get_tree().change_scene_to_file("res://transitionstoryboard/usttranslationstory/ust3.tscn")
+	get_tree().change_scene_to_file("res://transitionstoryboard/finals/shot3.tscn")

@@ -119,6 +119,7 @@ func _on_dialogue_finished() -> void:
 	is_dialogue_active = false
 	
 	
+	QuestManager.update_quest("The Return Home", "Talk to Paciano", true)
 	
 	# I-check kung ang huling tinakbong dialogue ay ang brawl scene
 	if last_timeline_played == "secondhomecoming2":

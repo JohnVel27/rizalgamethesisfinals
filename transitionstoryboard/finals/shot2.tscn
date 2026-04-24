@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://dirydd0turxhi"]
+[gd_scene format=3 uid="uid://dirydd0turxhi"]
 
-[ext_resource type="Script" uid="uid://c48bvueqkxrtv" path="res://transitionstoryboard/scripts/ust2.gd" id="1_ux6wq"]
-[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_v61sc"]
+[ext_resource type="Script" uid="uid://c48bvueqkxrtv" path="res://transitionstoryboard/scripts/ust2.gd" id="1_s8w8b"]
+[ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="2_secve"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l1uyl"]
 
@@ -10,12 +10,12 @@ texture = SubResource("AtlasTexture_l1uyl")
 modulate_color = Color(0, 0, 0, 1)
 
 [sub_resource type="FontVariation" id="FontVariation_cxhqw"]
-base_font = ExtResource("2_v61sc")
+base_font = ExtResource("2_secve")
 
-[node name="ateneo7" type="CanvasLayer"]
-script = ExtResource("1_ux6wq")
+[node name="ateneo7" type="CanvasLayer" unique_id=783599626]
+script = ExtResource("1_s8w8b")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Panel" type="Panel" parent="." unique_id=635975589]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -23,7 +23,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_30ypi")
 
-[node name="calambaintroduction" type="Label" parent="."]
+[node name="calambaintroduction" type="Label" parent="." unique_id=249924924]
 custom_minimum_size = Vector2(350, 0)
 anchors_preset = 8
 anchor_left = 0.5
@@ -32,8 +32,8 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -389.5
 offset_top = -165.0
-offset_right = 389.5
-offset_bottom = 165.0
+offset_right = 395.0
+offset_bottom = 75.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.803922)
@@ -41,6 +41,6 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 30
 theme_override_fonts/font = SubResource("FontVariation_cxhqw")
 theme_override_font_sizes/font_size = 50
-text = "Una siyang kumuha ng Pilosopiya at Panitikan, bago lumipat sa kursong Medisina upang matulungan ang kanyang ina na unti-unting nawawalan ng paningin."
+text = "His death was carried out by Spanish colonial authorities after he was accused of rebellion and sedition."
 horizontal_alignment = 3
 autowrap_mode = 3

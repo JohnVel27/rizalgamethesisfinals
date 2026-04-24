@@ -117,6 +117,9 @@ func check_location_completion() -> void:
 		
 	if current_scene_path == "res://levels/finals/4/manilameetinghouses.tscn":
 		update_quest("Building the League", "Go to manila meeting house", false)
+	
+	if current_scene_path == "res://levels/finals/2/librariesinlondon.tscn":
+		update_quest("Studying History In London", "Go to the library", true)
 		
 	
 

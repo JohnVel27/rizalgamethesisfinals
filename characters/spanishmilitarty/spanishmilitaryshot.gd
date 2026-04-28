@@ -33,10 +33,10 @@ func start_smooth_transition() -> void:
 		await Transitionlayer.on_transition_finished
 		
 		if tree: # extra safety
-			tree.change_scene_to_file("res://transitionstoryboard/finals/shot1.tscn")
+			tree.change_scene_to_file("res://levels/finals/6/bagumbayandeath.tscn")
 	else:
 		if tree:
-			tree.change_scene_to_file("res://transitionstoryboard/finals/shot1.tscn")
+			tree.change_scene_to_file("res://levels/finals/6/bagumbayandeath.tscn")
 
 # 🔥 Dialogue ends → ONLY shoot
 func _on_dialogue_finished():

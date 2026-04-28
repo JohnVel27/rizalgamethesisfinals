@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://8mb6vguyeexo"]
 
+[ext_resource type="Script" uid="uid://bfrsye16v0a20" path="res://characters/player/sprites/oldrizal/adultrizal_1.gd" id="1_y2w32"]
 [ext_resource type="Texture2D" uid="uid://dt37bqgqcbta2" path="res://characters/player/sprites/oldrizal/ADULT_RIZAL.png" id="2_inlox"]
 [ext_resource type="Script" uid="uid://he8ej8be1xv" path="res://characters/player/rizalcamera.gd" id="3_yh17w"]
 [ext_resource type="AudioStream" uid="uid://35m7tgqqvlvb" path="res://asset/sfx/walking.wav" id="4_afpc0"]
@@ -247,6 +248,7 @@ animations = [{
 }]
 
 [node name="adultrizalrope" type="CharacterBody2D" unique_id=395531454]
+script = ExtResource("1_y2w32")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1315441994]
 position = Vector2(16, -13)

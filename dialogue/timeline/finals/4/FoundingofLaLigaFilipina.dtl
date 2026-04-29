@@ -1,8 +1,23 @@
+join "Dr Louis de Wecke" right
 \domingofranco: Rizal, what is the purpose of this organization?
+leave "Dr Louis de Wecke"
+join adultrizal left
 Rizal: La Liga Filipina will unite Filipinos and promote education and reform.
+leave adultrizal
+join Reformist right
 Reformist: Will this not anger the authorities?
+leave Reformist
+join adultrizal left
 Rizal: Change always invites opposition.
+leave adultrizal
+join "Dr Louis de Wecke" right
 \domingofranco: What do you hope to achieve?
+leave "Dr Louis de Wecke"
+join adultrizal left
 Rizal: A peaceful and just society where Filipinos have equal rights.
+leave adultrizal
+join Reformist right
 Reformist: Then we stand with you.
+leave Reformist
+join adultrizal left
 Rizal: Together, we can build a better future for our country.

@@ -9008,3 +9008,6 @@ position = Vector2(-156, 393)
 
 [node name="europeanscholar5" parent="." unique_id=99731603 instance=ExtResource("23_3ubro")]
 position = Vector2(165, 425)
+
+[node name="CanvasModulate" type="CanvasModulate" parent="europeanscholar5" unique_id=827575984]
+color = Color(1.2003537, 0.9626199, 0.9626199, 1)

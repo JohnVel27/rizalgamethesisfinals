@@ -1,15 +1,37 @@
+join Teodora right
 Teodora: Jose, my son. You have finally returned home.
+leave Teodora
+join adultrizal left
 Rizal: Mother, I missed our home more than words can say.
+leave adultrizal
+join Paciano right
 Paciano: Europe has changed you.
+leave Paciano
+join adultrizal left
 Rizal: It has opened my eyes to what our country could become.
+join adultrizal left
 Villagers: Doctor Rizal, they say you studied in Europe.
 Rizal: Yes. If I can help heal our people, then my journey was worth it.
 Villagers: My eyesight has been troubling me.
 Rizal: Sit down. Let me examine your eyes.
+leave adultrizal
+join dominicanfriars right
 \dominicanfriars: Señor Rizal, we have heard of your book.
+leave dominicanfriars
+join adultrizal left
 Rizal: It is only a story that reflects reality.
+leave adultrizal
+join dominicanfriars right
 \dominicanfriars: Stories like that can create dangerous ideas.
+leave dominicanfriars
+join adultrizal left
 Rizal: Truth should not be feared.
+leave adultrizal
+join dominicanfriars right
 \dominicanfriars: You would be wise to remember who governs this colony.
+leave dominicanfriars
+join Paciano right
 Paciano: Jose, they are watching you.
+leave Paciano
+join adultrizal left
 Rizal: I expected as much. But the truth cannot remain hidden forever.

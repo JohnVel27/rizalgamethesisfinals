@@ -1,12 +1,21 @@
+join adultrizal left
 Rizal: The struggle grows darker. Perhaps the story must become darker as well.
+leave adultrizal
+join Reformist right
 Reformist: You are writing another novel?
+leave Reformist
+join adultrizal left
 Rizal: Yes. It will reveal the anger and frustration of our people.
+leave adultrizal
+join Reformist right
 Reformist: The first book shook the colony. This one may shake it even more.
+leave Reformist
+join adultrizal left
 Rizal: Sometimes a nation must confront its pain before it can heal.
-"Spanish Official": Señor Rizal, your writings criticize the government.
-Rizal: I criticize injustice, not Spain itself.
-"Spanish Official": Your words influence many Filipinos.
 Rizal: If my words awaken them, then they serve their purpose.
+join Reformist right
 Reformist: When will the book be finished?
+leave Reformist
+join adultrizal left
 Rizal: Soon. And when it is published, the world will understand our struggle.
 [signal arg="minigames"]

@@ -1,4 +1,11 @@
+join "Spanish Official" right
 "Spanish Official": Señor Rizal, your presence here is being closely monitored.
+leave "Spanish Official"
+join adultrizal left
 Rizal: I have done nothing wrong. I seek only peaceful reform.
+leave adultrizal
+join "Spanish Official" right
 "Spanish Official": Your ideas may influence others.
+leave "Spanish Official"
+join adultrizal left
 Rizal: Then let them influence people toward justice.

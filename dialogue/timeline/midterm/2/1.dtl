@@ -1,17 +1,45 @@
+join "Dr Louis de Wecke" right
 "Dr Louis de Wecke": Your hands are steady, Señor Rizal. Ophthalmology requires patience and precision.
+leave "Dr Louis de Wecke"
+join adultrizal left
 Rizal: My mother is losing her eyesight. I wish to help people like her.
+leave adultrizal
+join "Dr Louis de Wecke" right
 "Dr Louis de Wecke": A noble reason to become a doctor.
+leave "Dr Louis de Wecke"
+join adultrizal left
 Rizal: Knowledge is the best way I can serve my family and my country.
-"european scholar": Rizal, you study medicine and literature at the same time?
+leave adultrizal
+join "Maximo Viola" right
+"Maximo Viola": Rizal, you study medicine and literature at the same time?
+leave "Maximo Viola"
+join adultrizal left
 Rizal: A nation needs both science and ideas to move forward.
+leave adultrizal
+join "Maximo Viola" right
 "Maximo Viola": Jose, the manuscript is finished?
+leave "Maximo Viola"
+join adultrizal left
 Rizal: Yes. This novel tells the truth about the suffering of Filipinos.
+leave adultrizal
+join "Maximo Viola" right
 "Maximo Viola": Then it must be published.
+leave "Maximo Viola"
+join adultrizal left
 Rizal: Printing it will anger powerful people.
+leave adultrizal
+join "Maximo Viola" right
 "Maximo Viola": Truth is worth the risk. I will help pay for the printing.
+leave "Maximo Viola"
+join adultrizal left
 Rizal: Thank you, my friend. This book must reach the world.
-"Printing Master": The press is ready. Once we begin, there is no turning back.
+leave adultrizal
+join "Maximo Viola" right
+"Maximo Viola": The press is ready. Once we begin, there is no turning back.
+leave "Maximo Viola"
+join adultrizal left
 Rizal: Then let the truth be printed.
+leave adultrizal
 Narrator: minigame quiz\: this is a multiple-choice question.
 label louisminigames
 Narrator: In what year did Rizal first travel to Europe to continue his studies?

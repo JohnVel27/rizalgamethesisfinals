@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bkaec0cfcqj11"]
 
 [ext_resource type="Script" uid="uid://dk8bakavbt0de" path="res://GUI/notification/notification.gd" id="1_yvffc"]
-[ext_resource type="Texture2D" uid="uid://nrm8adprg6qu" path="res://item/sprites/map.png" id="2_vwf8o"]
-[ext_resource type="Texture2D" uid="uid://chrndvnr00f55" path="res://item/sprites/paintingspanish.png" id="3_6rvns"]
+[ext_resource type="Texture2D" uid="uid://bejvdkfkh8b3a" path="res://item/sprites/Nolio.png" id="2_4sqhi"]
+[ext_resource type="Texture2D" uid="uid://dntoimfl5irao" path="res://item/sprites/tools-removebg-preview.png" id="3_gnsqt"]
 [ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="4_bk7vd"]
 
 [sub_resource type="FontVariation" id="FontVariation_7cjes"]
@@ -33,7 +33,7 @@ offset_right = -2.0
 offset_bottom = 277.0
 grow_horizontal = 2
 mouse_filter = 2
-texture = ExtResource("2_vwf8o")
+texture = ExtResource("2_4sqhi")
 
 [node name="TextureRect2" type="TextureRect" parent="." unique_id=685019619]
 anchors_preset = 5
@@ -45,7 +45,7 @@ offset_right = 160.0
 offset_bottom = 281.0
 grow_horizontal = 2
 mouse_filter = 2
-texture = ExtResource("3_6rvns")
+texture = ExtResource("3_gnsqt")
 
 [node name="ItemName2" type="Label" parent="." unique_id=1432537191]
 anchors_preset = -1

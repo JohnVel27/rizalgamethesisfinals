@@ -50,6 +50,7 @@ directories/dch_directory={
 "TenantFarmer": "res://dialogue/characters/TenantFarmer.dch",
 "Teodora": "res://dialogue/characters/Teodora.dch",
 "Villagers": "res://dialogue/characters/Villagers.dch",
+"adultrizal": "res://dialogue/characters/adultrizal.dch",
 "classmates": "res://dialogue/characters/classmates.dch",
 "domingofranco": "res://dialogue/characters/domingofranco.dch",
 "dominicanfriars": "res://dialogue/characters/dominicanfriars.dch",

@@ -11249,3 +11249,7 @@ position = Vector2(-110, 881)
 
 [node name="Arrow" parent="." unique_id=120357931 instance=ExtResource("22_u65q0")]
 position = Vector2(244, 122)
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1026751638]
+position = Vector2(244, 122)
+color = Color(0.88709784, 0.88709784, 1.1071885, 1)

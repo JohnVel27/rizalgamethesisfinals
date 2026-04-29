@@ -1,10 +1,29 @@
+join Paciano right
 Paciano: Jose, the tension here is growing. The friars are angered by your book.
+leave Paciano
+join adultrizal left
 Rizal: If my presence puts our family in danger, then I must leave again.
+leave adultrizal
+join Paciano right
 Paciano: When will you return?
+leave Paciano
+join adultrizal left
 Rizal: When the time is right.
+leave adultrizal
+join "Marcelo H del Pilar" right
 "Marcelo H del Pilar": Rizal, your writings have inspired many Filipinos in Spain.
+leave "Marcelo H del Pilar"
+join adultrizal left
 Rizal: We must continue pushing for reform through knowledge and reason.
-"Graciano López Jaena": The Propaganda Movement needs strong voices.
+leave adultrizal
+join "Marcelo H del Pilar" right
+"Marcelo H del Pilar": The Propaganda Movement needs strong voices.
+leave "Marcelo H del Pilar"
+join adultrizal left
 Rizal: Then we will use our pens as our weapons.
+leave adultrizal
+join "Marcelo H del Pilar" right
 "Marcelo H del Pilar": Spain must hear the truth about its colony.
+leave "Marcelo H del Pilar"
+join adultrizal left
 Rizal: And one day, Filipinos will stand equal before the law.

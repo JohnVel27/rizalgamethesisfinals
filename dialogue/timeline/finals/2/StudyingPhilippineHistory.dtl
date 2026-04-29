@@ -1,7 +1,20 @@
+join adultrizal left
 Rizal: And yet they do not fully show the achievements of our people before colonization.
+leave adultrizal
+join Reformist right
 filipinoscholars: You plan to annotate these texts?
+leave Reformist
+join adultrizal left
 Rizal: Yes. Our history must be told from our own perspective.
-"european scholar": That may challenge established narratives.
+leave adultrizal
+join Reformist right
+filipinoscholars: That may challenge established narratives.
+join Reformist right
+join adultrizal left
 Rizal: Then it is necessary. Truth must not remain hidden.
+leave adultrizal
+join Reformist right
 filipinoscholars: Your work may change how Filipinos see themselves.
+leave Reformist
+join adultrizal left
 Rizal: That is my hope. A nation must understand its past to shape its future.

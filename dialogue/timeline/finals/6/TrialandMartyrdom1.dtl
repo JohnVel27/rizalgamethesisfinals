@@ -1,10 +1,27 @@
+join "Spanish Official" right
 "Spanish Official": José Rizal, you are accused of inspiring rebellion against Spain.
+leave "Spanish Official"
+join adultrizal left
 Rizal: I have only written to expose injustice.
+leave adultrizal
+join "Spanish Official" right
 "Spanish Official": Your writings have influenced many.
+leave "Spanish Official"
+join adultrizal left
 Rizal: If they awaken the people, then they have served their purpose.
+leave adultrizal
+join josephinebracken right
 josephinebracken: There must be a way to save you.
-Rizal:  Do not lose hope. What matters is the cause we fought for.
+leave josephinebracken
+join adultrizal left
+Rizal: Do not lose hope. What matters is the cause we fought for.
+leave adultrizal
 We will not forget you.
-Rizal:  I die with a clear conscience.
+join adultrizal left
+Rizal: I die with a clear conscience.
+leave adultrizal
+join "Spanish Official" right
 "Spanish Official": The sentence is death.
-Rizal:  I am ready to face it.
+leave "Spanish Official"
+join adultrizal left
+Rizal: I am ready to face it.

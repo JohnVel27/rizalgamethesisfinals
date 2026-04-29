@@ -1,8 +1,23 @@
+join "Marcelo H del Pilar" right
 "Marcelo H del Pilar": Rizal, your writings are gaining attention among Filipinos here in Spain.
+leave "Marcelo H del Pilar"
+join adultrizal left
 Rizal: Then we must use that attention wisely. Our goal is reform, not chaos.
+leave adultrizal
+join Reformist right
 "Graciano López Jaena": The Propaganda Movement needs voices like yours.
+leave Reformist
+join adultrizal left
 Rizal: We fight not with weapons, but with ideas.
+leave adultrizal
+join Reformist right
 Reformist: Do you believe Spain will listen?
+leave Reformist
+join adultrizal left
 Rizal: If we present the truth clearly, they will have no choice but to hear us.
+leave adultrizal
+join "Marcelo H del Pilar" right
 "Marcelo H del Pilar": Then we continue writing, publishing, and speaking.
+leave "Marcelo H del Pilar"
+join adultrizal left
 Rizal: Yes. Our words must awaken both Spain and the Philippines.

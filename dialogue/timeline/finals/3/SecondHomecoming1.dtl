@@ -1,4 +1,11 @@
+join Paciano right
 Paciano: You have returned despite the danger.
+leave Paciano
+join adultrizal left
 Rizal: I cannot remain abroad while my country suffers.
+leave adultrizal
+join Paciano right
 Paciano: The authorities are aware of your writings.
+join adultrizal left
+leave Paciano
 Rizal: I expected that. But I came to help, not to hide.

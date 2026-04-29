@@ -1,8 +1,19 @@
 townsman: Doctor Rizal, thank you for helping our community.
+join adultrizal left
 Rizal: It is my duty to serve wherever I am.
+leave adultrizal
+join josephinebracken right
 josephinebracken: Even in exile, you continue your work.
+leave josephinebracken
+join adultrizal left
 Rizal: Exile does not mean the end of purpose.
+leave adultrizal
+join josephinebracken right
 josephinebracken: You have built a school, a clinic, and helped so many.
+leave josephinebracken
+join adultrizal left
 Rizal: If I cannot serve the nation as a whole, I will serve the people here.
+leave adultrizal
 townsman: You have given hope to Dapitan.
+join adultrizal left
 Rizal: Hope is the beginning of change.

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b3kgilrxcoh4l"]
 
 [ext_resource type="Script" uid="uid://dk8bakavbt0de" path="res://GUI/notification/notification.gd" id="1_185ke"]
-[ext_resource type="Texture2D" uid="uid://dv8m3bl7mko8g" path="res://item/sprites/moothlamp.png" id="2_sep0r"]
+[ext_resource type="Texture2D" uid="uid://b1l4leuosxua6" path="res://item/sprites/Letter.png" id="2_185ke"]
 [ext_resource type="FontFile" uid="uid://dov3t2xbxgg58" path="res://asset/font/HFPoet.ttf" id="3_6gw5p"]
 
 [sub_resource type="FontVariation" id="FontVariation_7cjes"]
@@ -20,6 +20,7 @@ offset_top = 112.0
 offset_right = 235.0
 offset_bottom = 435.0
 grow_horizontal = 2
+mouse_filter = 2
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=56896711]
 anchors_preset = 5
@@ -30,7 +31,8 @@ offset_top = 153.0
 offset_right = 69.0
 offset_bottom = 280.0
 grow_horizontal = 2
-texture = ExtResource("2_sep0r")
+mouse_filter = 2
+texture = ExtResource("2_185ke")
 
 [node name="ItemName2" type="Label" parent="." unique_id=1432537191]
 anchors_preset = -1

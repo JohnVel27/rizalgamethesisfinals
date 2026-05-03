@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cxy7djvjwacuu" path="res://characters/spanishmilitarty/SPANISH_SOLDIER.png" id="1_7gija"]
 [ext_resource type="Script" uid="uid://cm6gw7816e5sl" path="res://characters/spanishmilitarty/spanishmilitaryshot.gd" id="1_t6trs"]
+[ext_resource type="AudioStream" uid="uid://n31tbuk4od6w" path="res://asset/sfx/shotsound.mp3" id="3_l7jip"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_kvpn2"]
 atlas = ExtResource("1_7gija")
@@ -328,6 +329,10 @@ position = Vector2(10, -25)
 shape = SubResource("CircleShape2D_8f1ks")
 
 [node name="Timer" type="Timer" parent="." unique_id=1647203561]
+
+[node name="Shotsound" type="AudioStreamPlayer" parent="." unique_id=587471803]
+stream = ExtResource("3_l7jip")
+volume_db = -10.4
 
 [node name="chatdetection" type="Area2D" parent="." unique_id=504761104]
 

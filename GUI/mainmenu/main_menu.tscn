@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://c42vehfgbtvy2" path="res://GUI/mainmenu/scripts/main_menu.gd" id="1_3l01i"]
 [ext_resource type="Texture2D" uid="uid://bk34xgyvf0717" path="res://GUI/mainmenu/main_menu.png" id="2_3l01i"]
 [ext_resource type="Texture2D" uid="uid://d3ktvlix8l8uo" path="res://GUI/mainmenu/button.png" id="3_itp4o"]
-[ext_resource type="AudioStream" uid="uid://c4yha5jjbu6n6" path="res://asset/sfx/bgm_mm.mp3" id="4_x5j3j"]
+[ext_resource type="AudioStream" uid="uid://ghw185gsiwqb" path="res://asset/sfx/bgm_ls.mp3" id="4_x5j3j"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3l01i"]
 texture = ExtResource("2_3l01i")
@@ -50,7 +50,7 @@ grow_vertical = 0
 texture_normal = SubResource("AtlasTexture_x5j3j")
 texture_hover = SubResource("AtlasTexture_7orac")
 
-[node name="bgm" type="AudioStreamPlayer" parent="." unique_id=802492444]
+[node name="bgm" type="AudioStreamPlayer" parent="." unique_id=573127978]
 stream = ExtResource("4_x5j3j")
 volume_db = -35.0
 autoplay = true

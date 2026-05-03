@@ -18,6 +18,8 @@
 [ext_resource type="PackedScene" uid="uid://8mb6vguyeexo" path="res://characters/player/sprites/oldrizal/adultrizal1.tscn" id="16_0h3vk"]
 [ext_resource type="PackedScene" uid="uid://n3gruiiq54iu" path="res://characters/NPC/sprites/farmer/farmer4nomovement.tscn" id="17_7e0qh"]
 [ext_resource type="PackedScene" uid="uid://cr1tkf386ce5n" path="res://characters/spanishmilitarty/spanishmilitary.tscn" id="17_j81wp"]
+[ext_resource type="Texture2D" uid="uid://dfyy3swb05xys" path="res://levels/sprites/irlphotos/bagumbayan1.webp" id="19_7ebk0"]
+[ext_resource type="Texture2D" uid="uid://cuaekms8lp42t" path="res://levels/sprites/irlphotos/bagumbayan2.webp" id="20_af54d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3pew2"]
 texture = ExtResource("2_pvtvb")
@@ -13600,3 +13602,13 @@ position = Vector2(113, 64)
 
 [node name="spanishmilitary4" parent="." unique_id=795875725 instance=ExtResource("17_j81wp")]
 position = Vector2(-123, 61)
+
+[node name="Bagumbayan1" type="Sprite2D" parent="." unique_id=871435325]
+position = Vector2(-170, 594)
+scale = Vector2(0.77061856, 0.77061856)
+texture = ExtResource("19_7ebk0")
+
+[node name="Bagumbayan2" type="Sprite2D" parent="." unique_id=41672686]
+position = Vector2(685.29083, 590.5)
+scale = Vector2(0.5145152, 0.42333344)
+texture = ExtResource("20_af54d")

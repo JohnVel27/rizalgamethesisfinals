@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://drslyb2put8hu" path="res://characters/player/oldrizal.tscn" id="6_ssfg3"]
 [ext_resource type="PackedScene" uid="uid://bbm4qikcs55u2" path="res://characters/NPC/classmates/classmate1.tscn" id="8_yoj8b"]
 [ext_resource type="PackedScene" uid="uid://bge5wggf77ret" path="res://levels/cursor.tscn" id="9_ddxhp"]
+[ext_resource type="Texture2D" uid="uid://8yw2s3mpf6se" path="res://levels/sprites/irlphotos/ust.jpg" id="11_eup2m"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eup2m"]
 texture = ExtResource("1_72c6g")
@@ -12753,3 +12754,8 @@ position = Vector2(1165, 86)
 
 [node name="Cursor" parent="." unique_id=2019401361 instance=ExtResource("9_ddxhp")]
 visible = false
+
+[node name="Ust" type="Sprite2D" parent="." unique_id=1049804036]
+position = Vector2(648, 579)
+scale = Vector2(0.661157, 0.661157)
+texture = ExtResource("11_eup2m")
